@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>ofertas</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>ofertas</string>
+		</dict>
+		<key>imageName</key>
+		<string>ofertas</string>
+		<key>destination</key>
+		<dict>
+			<key>identifier</key>
+			<string>1</string>
+			<key>image</key>
+			<dict>
+				<key>imageURL</key>
+				<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/9/b/9bffd16bdc40d82048103d4b6bc075bd_1_33.jpg</string>
+				<key>identifier</key>
+				<string>1</string>
+				<key>placeholderImageName</key>
+				<string>fundas</string>
+			</dict>
+			<key>text</key>
+			<string>Móviles</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>2</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/c/6/c65159efa368fa9700eafd34f72a2a02_1.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>fundas</string>
+		</dict>
+		<key>destination</key>
+		<dict>
+			<key>identifier</key>
+			<string>1</string>
+			<key>image</key>
+			<dict>
+				<key>imageURL</key>
+				<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/9/b/9bffd16bdc40d82048103d4b6bc075bd_1_33.jpg</string>
+				<key>identifier</key>
+				<string>1</string>
+				<key>placeholderImageName</key>
+				<string>fundas</string>
+			</dict>
+			<key>text</key>
+			<string>Móviles</string>
+		</dict>
+	</dict>
+</array>
+</plist>

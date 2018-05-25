@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>0</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>iconTodas</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>iconTodas</string>
+		</dict>
+		<key>text</key>
+		<string>Todas</string>
+		<key>query</key>
+		<string>all</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>iconIos</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>iconIos</string>
+		</dict>
+		<key>text</key>
+		<string>iOS</string>
+		<key>query</key>
+		<string>iOS</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>2</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>iconAndroid</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>iconAndroid</string>
+		</dict>
+		<key>text</key>
+		<string>Android</string>
+		<key>query</key>
+		<string>android</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Haluatteko vaihtaa lisenssinne</string>
+<string name="qr_reader_title">Skannaa QR-koodi</string>
+<string name="configuration_license_alert_title">Varovaisuus</string>
+<string name="pairing_question_text">Haluatko pareiksi laitteen?</string>
+<string name="configuration_value_off">Ei kuvaa</string>
+<string name="configuration_value_low">Matala</string>
+<string name="configuration_value_medium">Keski</string>
+<string name="configuration_value_high">Korkea</string>
+<string name="configuration_busy_mode">Varattu tila</string>
+<string name="configuration_device_name">Laite</string>
+<string name="configuration_microphone_gain">Mikrofonin tason säätö</string>
+<string name="configuration_handsfree">Handsfree</string>
+<string name="configuration_headset">Kuulokkeet</string>
+<string name="configuration_video_quality">Kuvan Laatu</string>
+<string name="configuration_wifi">WIFI:llä</string>
+<string name="configuration_3G">3G/4G:llä</string>

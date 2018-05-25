@@ -1,0 +1,104 @@
+{
+  "Message": "The request is invalid.",
+  "ModelState": {
+    "clientModel.account-language-id": [
+      "The value should be one of the following: 7:'Afrikaans',8:'Albanian',9:'Arabic',10:'Armenian',62:'Azerbaijani',11:'Basque',12:'Bengali',13:'Bulgarian',63:'Burmese',15:'Cambodian',14:'Catalan',16:'Chinese (Simplified)',2:'Chinese (Traditional)',17:'Croatian',18:'Czech',19:'Danish',64:'Dhivehi',5:'Dutch',65:'Dzongkha',1:'English',20:'Estonian',21:'Fiji',66:'Finnish',3:'French',22:'Georgian',6:'German',23:'Greek',24:'Hebrew',25:'Hindi',26:'Hungarian',27:'Icelandic',28:'Indonesian',29:'Irish',30:'Italian',4:'Japanese',31:'Javanese',67:'Khmer',32:'Korean',68:'Lao',33:'Latin',34:'Macedonian',35:'Malayalam',36:'Maltese',37:'Maori',38:'Mongolian',39:'Nepali',40:'Norwegian',69:'Pashto',41:'Persian',42:'Polish',43:'Portuguese',44:'Romanian',45:'Russian',46:'Samoan',47:'Serbian',48:'Slovak',49:'Slovenian',50:'Spanish',51:'Swahili',52:'Swedish',53:'Tamil',54:'Tatar',55:'Thai',56:'Tibetan',57:'Turkish',58:'Ukrainian',59:'Urdu',60:'Uzbek',61:'Vietnamese'"
+    ],
+    "clientModel.account-code-id": [
+      "The value should be one of the following: 2:'Trading Account',3:'Managed Account'"
+    ],
+    "clientModel.account-emir-id": [
+      "The value should be one of the following: 1:'Financial Counterparty',2:'Non-Financial Counterparty',3:'Authorised assurance undertaker',4:'Authorised credit institution',5:'Investment firm',6:'Authorised insurance undertaker',7:'Authorised alternative investment fund managed by AIFMs',8:'Institution for occupationa retirement provision',9:'Reinsurance undertaking',10:'UCITS and its management company'"
+    ],
+    "clientModel.financial-annual-income-id": [
+      "The value should be one of the following: 66:'0 - 20,000',67:'20,000 - 50,000',68:'50,000 - 100,000',69:'100,000 - 250,000',70:'250,000 - 500,000',71:'500,000 - 1,000,000',72:'1,000,000+'"
+    ],
+    "clientModel.financial-liquid-assets-id": [
+      "The value should be one of the following: 92:'0 - 20,000',93:'20,000 - 50,000',94:'50,000 - 100,000',95:'100,000 - 250,000',96:'250,000 - 500,000',97:'500,000 - 1,000,000',98:'1,000,000 - 5,000,000',99:'5,000,000 - 10,000,000',100:'10,000,000+'"
+    ],
+    "clientModel.financial-investment-objective-id": [
+      "The value should be one of the following: 3:'Capital Growth',4:'Speculation',5:'Income',6:'Hedging',7:'Other'"
+    ],
+    "clientModel.trading-style-id": [
+      "The value should be one of the following: 1:'Robot',2:'Manual',3:'Scalper',4:'Other'"
+    ],
+    "clientModel.bank-code-id": [
+      "The value should be one of the following: 67:'IBAN (EU)',68:'ABA (US)',69:'Sort Code (UK)',70:'BSB (Australia)',80:''"
+    ],
+    "clientModel.bank-address-country-id": [
+      "Invalid bank-address-country-id" ??
+    ],
+    "clientModel.bank-intermediary-country-id": [
+      "Invalid bank-intermediary-country-id"
+    ],
+    "clientModel.trading-spot-experience-id": [
+      "The value should be one of the following: 6:'None',7:'0 - 1',8:'1 - 2',9:'2 - 3',10:'3 - 4',11:'4 - 5',12:'5 +'"
+    ],
+    "clientModel.trading-options-experience-id": [
+      "The value should be one of the following: 6:'None',7:'0 - 1',8:'1 - 2',9:'2 - 3',10:'3 - 4',11:'4 - 5',12:'5 +'"
+    ],
+    "clientModel.trading-shares-experience-id": [
+      "The value should be one of the following: 6:'None',7:'0 - 1',8:'1 - 2',9:'2 - 3',10:'3 - 4',11:'4 - 5',12:'5 +'"
+    ],
+    "clientModel.trading-futures-experience-id": [
+      "The value should be one of the following: 6:'None',7:'0 - 1',8:'1 - 2',9:'2 - 3',10:'3 - 4',11:'4 - 5',12:'5 +'"
+    ],
+    "clientModel.trading-futures-experience-source-id": [
+      "The value should be one of the following: 1:'Professionally',2:'Privately'"
+    ],
+    "clientModel.trading-options-experience-source-id": [
+      "The value should be one of the following: 1:'Professionally',2:'Privately'"
+    ],
+    "clientModel.trading-shares-experience-source-id": [
+      "The value should be one of the following: 1:'Professionally',2:'Privately'"
+    ],
+    "clientModel.trading-spot-experience-source-id": [
+      "The value should be one of the following: 1:'Professionally',2:'Privately'"
+    ],
+    "clientModel.individual-email": [
+      "'individual-email' is not a valid email address."
+    ],
+    "clientModel.individual-address-months": [
+      "'individual-address-months' must be between 0 and 999 (exclusive). You entered 0."
+    ],
+    "clientModel.financial-funds-source-id": [
+      "The value should be one of the following: 1:'Employment',2:'Investment',3:'Inheritance',4:'Other',28:'Pension'"
+    ],
+    "clientModel.individual-title-id": [
+      "The value should be one of the following: 1:'Mr.',2:'Mrs.',3:'Miss',4:'Ms.',5:'Dr.',6:'Prof.'"
+    ],
+    "clientModel.individual-citizenship-country-id": [
+      "Invalid individual-citizenship-country-id"
+    ],
+    "clientModel.individual-identification-type-id": [
+      "The value should be one of the following: 49:'Passport',50:'Drivers License',51:'Government ID'"
+    ],
+    "clientModel.individual-residence-country-id": [
+      "Invalid individual-residence-country-id"
+    ],
+    "clientModel.individual-address-country-id": [
+      "Invalid individual-address-country-id"
+    ],
+    "clientModel.individual-employment-status-id": [
+      "The value should be one of the following: 1:'Employed',2:'Unemployed',3:'Self-Employed',4:'Retired',5:'Student'"
+    ],
+    "clientModel.individual-previous-address-country-id": [
+      "Invalid individual-previous-address-country-id"
+    ],
+    "clientModel.individual-birth-date": [
+      "Invalid date format. Should be 'YYYY-MM-DD'"
+    ],
+    "clientModel.individual-income-source-id": [
+      "The value should be one of the following: 1:'Maturity /surrender of life policy (regular) Dividends (regular)',2:'Real Estate (rental)',3:'Company profits',4:'Trust fund',5:'Divorce Settlement (Alimony)',6:'Retirement Income',7:'Government Aid'"
+    ],
+    "clientModel.individual-license-expiration": [
+      "Invalid date format. Should be 'YYYY-MM-DD'"
+    ],
+    "clientModel.individual-tax-number-country-id": [
+      "Invalid individual-tax-number-country-id"
+    ],
+    "clientModel.individual-nationality-id": [
+      "Invalid individual-nationality-id"
+    ]
+  }
+}

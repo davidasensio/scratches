@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Castellón</string>
+		<key>address</key>
+		<string>Asensi, 9 - 12002 Castellón de la Plana</string>
+		<key>phone</key>
+		<string>964 239 162</string>
+		<key>city</key>
+		<string>Castellón</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>39.983247</real>
+			<key>longitude</key>
+			<real>-0.037391</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Exposición</string>
+		<key>address</key>
+		<string>Carretera Vila-real-Puebla de Arenoso (CV-20) km 0,7 - 12540 Villarreal</string>
+		<key>phone</key>
+		<string>964 506 800</string>
+		<key>city</key>
+		<string>Vila-Real</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>39.94544</real>
+			<key>longitude</key>
+			<real>-0.138961</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Exposición</string>
+		<key>address</key>
+		<string>Avda. del Mediterráneo, Parcela 6. Polígono industrial del Mediterráneo - 46550 Albuixech</string>
+		<key>phone</key>
+		<string>961 417 227</string>
+		<key>city</key>
+		<string>Albuixech</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>39.540098</real>
+			<key>longitude</key>
+			<real>-0.305769</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>NOVOCER, S.L.</string>
+		<key>address</key>
+		<string>C/ Colón, 56, 46004 Valencia</string>
+		<key>phone</key>
+		<string>963 530 230</string>
+		<key>city</key>
+		<string>Valencia</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>39.469356</real>
+			<key>longitude</key>
+			<real>-0.371699</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Exposición</string>
+		<key>address</key>
+		<string>Avda. Mediterráneo, s/n. Zona Comercial de Sedaví - 46910 Sedaví</string>
+		<key>phone</key>
+		<string>963 185 021</string>
+		<key>city</key>
+		<string>Valencia</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>39.41982</real>
+			<key>longitude</key>
+			<real>-0.375956</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Exposición</string>
+		<key>address</key>
+		<string>Parque Río Norte - 28100 Alcobendas</string>
+		<key>phone</key>
+		<string>916 623 232</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>40.532024</real>
+			<key>longitude</key>
+			<real>-3.644142</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>localizedName</key>
+		<string>PORCELANOSA - Exposición</string>
+		<key>address</key>
+		<string>Ortega y Gasset, 62. Esquina Conde Peñalver - 28006 Madrid</string>
+		<key>phone</key>
+		<string>914 448 460</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>country</key>
+		<string>España</string>
+		<key>gps</key>
+		<dict>
+			<key>latitude</key>
+			<real>40.429896</real>
+			<key>longitude</key>
+			<real>-3.675764</real>
+		</dict>
+	</dict>
+</array>
+</plist>

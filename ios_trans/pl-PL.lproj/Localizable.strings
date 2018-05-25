@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Czy chcesz zmienić swoją licencję?</string>
+<string name="qr_reader_title">Zeskanuj kod QR</string>
+<string name="configuration_license_alert_title">Uwaga</string>
+<string name="pairing_question_text">Czy chcesz połączyć się z urządzeniem?</string>
+<string name="configuration_value_off">Brak video</string>
+<string name="configuration_value_low">Niska</string>
+<string name="configuration_value_medium">Średnia</string>
+<string name="configuration_value_high">Wyska</string>
+<string name="configuration_busy_mode">Tryb \"zajęty\"</string>
+<string name="configuration_device_name">Urządzenie</string>
+<string name="configuration_microphone_gain">Wzmocnienie mikrofonu</string>
+<string name="configuration_handsfree">Tryb głośnomówiący</string>
+<string name="configuration_headset">Zestaw słuchawkowy</string>
+<string name="configuration_video_quality">Jakość video</string>
+<string name="configuration_wifi">poprzez WIFI</string>
+<string name="configuration_3G">poprzez 3G/4G</string>

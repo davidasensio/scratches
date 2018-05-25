@@ -1,0 +1,167 @@
+
+
+// Metodos del WebService
+Metodo_Login = "doLogin";
+Metodo_existeEmail = "existeEmail";
+Metodo_registrarUsuarioData = "registrarUsuarioData";
+Metodo_editarCuenta = "editarCuentaDeUsuarioData";                                  (Deprecated)
+Metodo_recordarPassword = "recordarPassword";
+
+
+Metodo_EnviarEnlaceDeActivacion = "enviarEnlaceDeActivacion";                       (Deprecated)
+Metodo_CompletarUsuarioFacebook = "completarUsuarioFacebook";                       (Deprecated)
+Metodo_AceptarTerminosDeUsoFacebook = "aceptarTerminosDeUsoFacebook";               (Deprecated)
+Metodo_ObtenerConfiguracionNotificaciones = "obtenerConfiguracionNotificaciones";   (Deprecated)
+Metodo_GuardarConfiguracionNotificaciones = "guardarConfiguracionNotificaciones";   (Deprecated)
+Metodo_obtenerProducto = "obtenerProducto";                                         (Deprecated)
+Metodo_obtenerPrecioProducto = "obtenerPrecioProducto";
+
+//  HDA
+Metodo_obtenerPackClienteHda = "obtenerPackClienteHda";                             (Cambia nombre: pack por packs)
+Metodo_GenerateRequestCode = "generarCodigoSolicitud";                              (Deprecated)
+Metodo_RegistrarPedidoPack = "registrarPedidoPack";                                 (Deprecated)
+Metodo_getHDAConfiguration = "getHDAConfiguration";
+
+Metodo_SignalCompiledPackageUploaded = "FileIsUploaded";                            (Deprecated)
+Metodo_CheckCompiledPackageUploaded = "FileExists";                                 (Deprecated)
+
+
+//Datos de la pasarela de Pago
+Metodo_ObtenerDireccionEnvio = "obtenerDireccionesEnvio";                           (Deprecated)
+Metodo_GuardarDireccionEnvio = "guardarDireccionEnvio";                             (Deprecated)
+Metodo_ObtenerPaises = "obtenerPaisesHda";                                          (Cambia nombre)
+Metodo_ObtenerProvinciasPorPais = "obtenerProvinciasPorCodigoPaisHda";              (Cambia nombre)
+
+Metodo_obtenerPedidos = "obtenerPedidos";                                           (Deprecated)
+
+// TOTAL: 24 metodos SOAP en Hofmann 2
+
+==================================================================================================
+
+
+
+generaAccessToken       (Nuevo)
+doLogin 
+registrarUsuarioData 
+enviarEnlaceActivacion  (Nuevo)
+existeEmail 
+obtenerContenido        (Nuevo)
+recordarPassword 
+obtenerPrecioProducto
+obtenerPacksClienteHDA  (Nuevo)
+registrarPedidosPack    (Nuevo)
+crearPedidoCarrito      (Nuevo)
+obtenerPaises 
+obtenerProvincias
+getHDAConfiguration
+
+// TOTAL: 14 metodos REST en Hofmann 3.0
+
+==================================================================================================
+
+Buenos días,
+
+Hago un recopilatorio para mostrar la situación actual con respecto a las operaciones REST a implementar:
+
+generaAccessToken - implementado
+doLogin - implementado
+registrarUsuarioData - implementado
+enviarEnlaceActivacion - implementado
+existeEmail - implementado
+recordarPassword - implementado
+obtenerPrecioProducto - implementado
+obtenerPaises - implementado
+obtenerProvincias - implementado
+getHDAConfiguration - implementado
+obtenerContenido - Duda: ¿Para que sirve?
+obtenerDireccionesEnvio - Bloqueado: No implementado en REST todavía
+
+obtenerPacksClienteHDA - Bloqueado: Es necesario un usuario con pack de fotos (Además la llamada antigua SOAP no permite la compra, pues devuelve un 500)
+registrarPedidosPack - Bloqueado: Es necesarios un usuario con pack de fotos (Además la llamada antigua SOAP no permite la compra, pues devuelve un 500)
+
+crearPedidoCarrito - Duda: Este no estaba incluido en el Postman pero sí en la documentación de GMV. ¿Cuando se usa? ¿Hay que incluirlo en Postman?
+
+Paso de momento las tareas a bloqueadas, hasta que pueda seguir avanzando. Quedo a la espera de vuestra ayduda para conseguir cerrar el ciclo de compra y obtención de packs de un cliente con las nuevas operaciones REST.
+
+
+
+
+
+	private String getShuffleString(String source) {
+		char[] lettersArray = source.toCharArray();
+		List<Character> charList = new ArrayList<>();
+		for (char c : lettersArray) {
+			charList.add(c);
+		}
+		Collections.shuffle(charList);
+
+		StringBuilder result = new StringBuilder(charList.size());
+		for (Character c : charList) {
+			result.append(c);
+		}
+		System.out.println(result.toString());
+
+		return result.toString();
+	}
+
+
+
+
+
+	public class AESHelper {
+
+        static {
+            System.loadLibrary("gl2jni");
+        }
+
+        public AESHelper() {
+        }
+
+        public static native byte[] getSecretKey();
+    }
+
+
+
+
+nativePasswordLib.cpp
+
+//
+// Created by Develapps on 25/07/2017.
+//
+
+#include <jni.h>
+#include <string>
+#include <unistd.h>
+
+static jbyteArray NewJavaStringBytes(JNIEnv* env, const char *src);
+
+extern "C"
+JNIEXPORT jbyteArray JNICALL
+Java_com_hofmann_hofmann_common_AESHelper_getSecretKey(
+        JNIEnv *env,
+        jobject /* this */) {
+    std::string secretKey = "MLS12345";
+    return NewJavaStringBytes(env, secretKey.c_str());
+}
+
+
+static jbyteArray NewJavaStringBytes(JNIEnv* env, const char *src) {
+    jbyteArray retVal = env->NewByteArray(strlen(src));
+    jbyte *buf = env->GetByteArrayElements(retVal, NULL);
+    strcpy((char*)buf, src);
+    env->ReleaseByteArrayElements(retVal, buf, 0);
+    return retVal;
+}
+
+
+
+public static SecurePreferences getSecurePreferences(Context context)
+	{
+		String secretKey = "";
+		try {
+			secretKey = new String(AESHelper.getSecretKey(), "UTF_8");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		return new SecurePreferences(context, BaseActivity.PREFERENCES, secretKey, true);
+	}

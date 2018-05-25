@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1</string>
+	<key>text</key>
+	<string>Funda libro con cierre magnético iPhone 7/6/6S, Silver</string>
+	<key>sku</key>
+	<string>CAIP7STANDBOSV</string>
+	<key>ean16</key>
+	<string>8432471135714</string>
+	<key>description</key>
+	<string>Funda con tarjetero interior, cierre magnético y acabado premium con bordes de costura que hacen de esta funda el accesorio ideal para el nuevo iPhone 7 de Apple.
+
+Gracias a la función stand de esta funda se puede disfrutar de una visión apaisada de la pantalla, lo que permite ver vídeos y escribir de forma cómoda y sencilla.</string>
+	<key>technicalDescription</key>
+	<string>Funda específica tipo libro para iPhone 7/6/6S.
+Funda de polipiel brillante con carcasa rígida.
+Con bordes de costura
+Cierre magnético.
+Acceso a todos los puertos.
+Posición stand.
+Incluye tarjetero</string>
+	<key>image</key>
+	<dict>
+		<key>imageURL</key>
+		<string>http://www.ideus.com/media/catalog/product/cache/1/image/206x370/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_1_6.jpg</string>
+		<key>identifier</key>
+		<string>1</string>
+	</dict>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_1_6.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_2_6.jpg</string>
+			<key>identifier</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_3_6.jpg</string>
+			<key>identifier</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_4_2.jpg</string>
+			<key>identifier</key>
+			<string>4</string>
+		</dict>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_5.jpg</string>
+			<key>identifier</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/image/700x526/4fb1ec7d6bcd91df9ae0a35f7190a571/7/3/737c794d4c0745caecbba4dc1700e797_6.jpg</string>
+			<key>identifier</key>
+			<string>6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

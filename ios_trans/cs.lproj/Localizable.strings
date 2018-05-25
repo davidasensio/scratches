@@ -1,0 +1,15 @@
+<string name="configuration_license_alert_message">Chcete změnit licenci?</string>
+<string name="configuration_license_alert_title">Pozor</string>
+<string name="pairing_question_text">Chcete spárovat zařízení?</string>
+<string name="configuration_value_off">Žádné</string>
+<string name="configuration_value_low">Nízká</string>
+<string name="configuration_value_medium">Střední</string>
+<string name="configuration_value_high">Vysoká</string>
+<string name="configuration_busy_mode">ařízení je zaneprázněno</string>
+<string name="configuration_device_name">Zařízení</string>
+<string name="configuration_microphone_gain">Hlasitost mikrofonu</string>
+<string name="configuration_handsfree">Handsfree</string>
+<string name="configuration_headset">Headset</string>
+<string name="configuration_video_quality">Kvalita videa</string>
+<string name="configuration_wifi">pres WIFI</string>
+<string name="configuration_3G">pres 3G/4G</string>

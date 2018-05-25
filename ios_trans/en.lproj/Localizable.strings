@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Do you like to change your license?</string>
+<string name="qr_reader_title">Scan QR Code</string>
+<string name="configuration_license_alert_title">Caution</string>
+<string name="pairing_question_text">Do you want to pair off the device?</string>
+<string name="configuration_value_off">Off</string>
+<string name="configuration_value_low">Low</string>
+<string name="configuration_value_medium">Medium</string>
+<string name="configuration_value_high">High</string>
+<string name="configuration_busy_mode">Busy Mode</string>
+<string name="configuration_device_name">Device name</string>
+<string name="configuration_microphone_gain">Microphone gain</string>
+<string name="configuration_handsfree">Handsfree</string>
+<string name="configuration_headset">Headset</string>
+<string name="configuration_video_quality">Video Quality</string>
+<string name="configuration_wifi">over WIFI</string>
+<string name="configuration_3G">over 3G/4G</string>

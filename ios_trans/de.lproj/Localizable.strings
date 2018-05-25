@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Möchten Sie Ihre Lizenz ändern?</string>
+<string name="qr_reader_title">QR Code scannen</string>
+<string name="configuration_license_alert_title">Vorsicht</string>
+<string name="pairing_question_text">Möchten Sie das Gerät ausschalten?</string>
+<string name="configuration_value_off">Aus</string>
+<string name="configuration_value_low">Niedrig</string>
+<string name="configuration_value_medium">Mittel</string>
+<string name="configuration_value_high">Hoch</string>
+<string name="configuration_busy_mode">Beschäftigt</string>
+<string name="configuration_device_name">Gerät</string>
+<string name="configuration_microphone_gain">Mikrofon gain</string>
+<string name="configuration_handsfree">Freihand</string>
+<string name="configuration_headset">Kopfhörer</string>
+<string name="configuration_video_quality">Video Qualität</string>
+<string name="configuration_wifi">über WIFI</string>
+<string name="configuration_3G">über 3G/4G</string>

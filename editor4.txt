@@ -1,0 +1,40 @@
+18:17:49.173 26349-26349/com.fermax.lynxed D/Linphone Call State: CallEnd
+12-21 18:17:49.210 636-2802/system_process I/WindowManager: WIN DEATH: Window{d1e0c6 u0 com.fermax.lynxed/com.fermax.lynxed.modules.call.CallActivity}
+12-21 18:17:49.210 636-22604/system_process D/GraphicsStats: Buffer count: 6
+12-21 18:17:49.211 227-692/? W/AudioFlinger::EffectHandle: disconnect Effect handle 0xb53ff200 disconnected after thread destruction
+12-21 18:17:49.211 227-692/? W/AudioFlinger::EffectHandle: disconnect Effect handle 0xb53ff280 disconnected after thread destruction
+12-21 18:17:49.211 227-692/? W/AudioFlinger::EffectHandle: disconnect Effect handle 0xb53ff300 disconnected after thread destruction
+12-21 18:17:49.211 227-692/? W/AudioFlinger::EffectHandle: disconnect Effect handle 0xb53ff380 disconnected after thread destruction
+12-21 18:17:49.211 636-22604/system_process I/ActivityManager: Process com.fermax.lynxed (pid 26349) has died
+12-21 18:17:49.211 636-22604/system_process D/ActivityManager: cleanUpApplicationRecord -- 26349
+12-21 18:17:49.212 636-22604/system_process W/ActivityManager: Scheduling restart of crashed service com.fermax.lynxed/com.fermax.sdk.vpn.strongswan.logic.CharonVpnService in 1000ms
+12-21 18:17:49.213 636-22604/system_process W/ActivityManager: Scheduling restart of crashed service com.fermax.lynxed/com.fermax.sdk.lynxed.linphone_wrapper.LinphoneService in 10999ms
+12-21 18:17:49.213 636-22604/system_process W/ActivityManager: Force removing ActivityRecord{1bdc616 u0 com.fermax.lynxed/.modules.call.CallActivity t688}: app died, no saved state
+12-21 18:17:49.216 636-2809/system_process I/WindowManager: WIN DEATH: Window{bee52a4 u0 com.fermax.lynxed/com.fermax.lynxed.modules.call.CallActivity EXITING}
+12-21 18:17:49.218 636-1606/system_process I/WindowManager: WIN DEATH: Window{c7f3fd5 u0 com.fermax.lynxed/com.fermax.lynxed.modules.main.MainActivity}
+12-21 18:17:49.232 237-619/? D/NetlinkEvent: Unknown ifindex 95 in RTM_DELADDR
+12-21 18:17:49.224 656-656/? W/android.fg: type=1400 audit(0.0:1325): avc: denied { sys_module } for capability=16 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=capability permissive=0
+12-21 18:17:49.247 26996-26996/? I/art: Late-enabling -Xcheck:jni
+12-21 18:17:49.272 636-22604/system_process I/ActivityManager: Start proc 26996:com.fermax.lynxed/u0a152 for activity com.fermax.lynxed/.modules.main.MainActivity
+12-21 18:17:49.274 26996-27003/? E/art: Failed sending reply to debugger: Broken pipe
+12-21 18:17:49.274 26996-27003/? I/art: Debugger is no longer active
+12-21 18:17:49.274 26996-27003/? I/art: Starting a blocking GC Instrumentation
+12-21 18:17:49.276 225-225/? I/Zygote: Process 26349 exited due to signal (11)
+12-21 18:17:49.279 636-771/system_process D/ConnectivityService: NetworkAgentInfo [VPN () - 173] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+12-21 18:17:49.279 636-771/system_process D/VPN: NetworkAgent: NetworkAgent channel lost
+12-21 18:17:49.279 636-771/system_process D/ConnectivityService: NetworkAgentInfo [VPN () - 173] got DISCONNECTED, was satisfying 2
+12-21 18:17:49.302 636-771/system_process W/ConnectivityExtension: ConnectivityExt jar file not present
+12-21 18:17:49.321 636-771/system_process D/ConnectivityService: Sending DISCONNECTED broadcast for type 17 NetworkAgentInfo [VPN () - 173] isDefaultNetwork=false
+12-21 18:17:49.331 2301-2301/com.android.email I/Email: Unregister all idle mailboxes
+12-21 18:17:49.351 1865-1865/com.google.android.gms I/CmaSystemUpdateService: connectivity change: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+12-21 18:17:49.351 1865-1865/com.google.android.gms I/CmaSystemUpdateService: receiver: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+12-21 18:17:49.354 26996-26996/? I/MultiDex: VM with version 2.1.0 has multidex support
+12-21 18:17:49.354 26996-26996/? I/MultiDex: Installing application
+12-21 18:17:49.354 26996-26996/? I/MultiDex: VM has multidex support, MultiDex support library is disabled.
+12-21 18:17:49.355 2047-2047/com.cyanogenmod.lockclock D/WeatherUpdateService: onCreate
+12-21 18:17:49.372 26996-26996/? D/FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+12-21 18:17:49.382 2047-2047/com.cyanogenmod.lockclock D/WeatherUpdateService: Service started, but shouldn't update ... stopping
+12-21 18:17:49.384 2047-2047/com.cyanogenmod.lockclock D/WeatherUpdateService: onDestroy
+12-21 18:17:49.390 26996-26996/? D/FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+12-21 18:17:49.410 26996-26996/? V/FA: Cancelling job. JobID: 276873386
+12-21 18:17:49.416 26996-26996/? V/FA: Registered activity lifecycle callback

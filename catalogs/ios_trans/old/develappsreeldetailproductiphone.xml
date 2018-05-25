@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1</string>
+	<key>text</key>
+	<string>Hofmann</string>
+	<key>description</key>
+	<string>La aplicación Hofmann permite crear e imprimir tus Smart Álbum (álbumes de fotos digitales), Smart Deco (foto decoración / cuadros), Smart Print (revelado de fotos digitales) y Smart Calendar (calendarios con fotos) desde cualquier sitio y en solo 3 sencillos pasos.</string>
+	<key>technicalDescription</key>
+	<string>Ahora puedes dar vida a tus mejores momentos en un instante. Con esta App de fotografía de Hofmann puedes crear tres tipos de productos donde las fotos de tu móvil serán las protagonistas: Smart Álbum, Smart Deco, Smart Calendar y además revelar tus fotos en tiempo récord.
+
+El Smart Álbum es un álbum de fotos digital Hofmann especialmente diseñado para las fotos de tu móvil. Smart Deco te permite crear varios tipos de cuadros para decorar el lugar que tú elijas. Con Smart Calendar puedes crear tus propios calendarios seleccionando fotos desde tu móvil y eligiendo como ordenarlas en cada mes. Con la APP Hofmann también puedes usar tus fotos de Facebook e Instagram para crear Smart Álbum, Smart Deco, Smart Calendar de forma rápida y sencilla.</string>
+	<key>image</key>
+	<dict>
+		<key>imageName</key>
+		<string>hofmannDetail</string>
+		<key>identifier</key>
+		<string>1</string>
+	</dict>
+	<key>brand</key>
+	<dict>
+		<key>identifier</key>
+		<string>Fermax</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>hofmannTitle</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+	</dict>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>hofmannDetail2</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxProduct1</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxProduct1</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

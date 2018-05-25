@@ -1,0 +1,11 @@
+Remove color tags:
+<key>color_.*\n\s+<dict>\n\s+<key>alpha.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n\s+</dict>
+
+Remove font tags:
+<key>font.*\n\s+<dict>.*\n.*\n.*\n.*\n.*\n.*
+
+Remove size tags:
+<key>size.*\n\s+<dict>\n.*\n.*\n.*\n.*\n.*
+
+All in one:
+<key>color_.*\n\s+<dict>\n\s+.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n\s+</dict>|<key>font.*\n\s+<dict>.*\n.*\n.*\n.*\n.*\n.*|<key>size.*\n\s+<dict>\n.*\n.*\n.*\n.*\n.*

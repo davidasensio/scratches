@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dva_version</key>
+	<string>0.0.2</string>
+	<key>dva_jsonVersion</key>
+	<string>1.0.0</string>
+	<key>dva_availableChildren</key>
+	<array>
+		<dict>
+			<key>dva_availableChildren</key>
+			<array>
+				<dict>
+					<key>dva_localizedIdentifier</key>
+					<string>Home</string>
+					<key>dva_screen</key>
+					<string>DVAMHomeUI_iPad_V1</string>
+					<key>dva_uiElements</key>
+					<dict>
+						<key>navigationBars</key>
+						<array>
+							<dict>
+								
+								<key>dva_element</key>
+								<string>navigationBars</string>
+								<key>dva_localizedIdentifier</key>
+								<string>navigationBarHome</string>
+								<key>dva_uiElements</key>
+								<dict>
+									<key>navigationBarButtons</key>
+									<array>
+										<dict>
+											<key>imageName</key>
+											<string>menu</string>
+											
+											<key>dva_element</key>
+											<string>navigationBarButtons</string>
+											<key>dva_localizedIdentifier</key>
+											<string>menuButton</string>
+										</dict>
+									</array>
+									<key>images</key>
+									<array>
+										<dict>
+											<key>imageName</key>
+											<string>logoAntic</string>
+											
+											<key>dva_element</key>
+											<string>images</string>
+											<key>dva_localizedIdentifier</key>
+											<string>logoImage</string>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
+						<key>collectionViews</key>
+						<array>
+							<dict>
+								
+								<key>dva_element</key>
+								<string>collectionViews</string>
+								<key>dva_localizedIdentifier</key>
+								<string>collectionSections</string>
+								<key>dva_uiElements</key>
+								<dict>
+									<key>collectionCells</key>
+									<array>
+										<dict>
+											<key>dva_nextConfigEndpoint</key>
+											<string>Sections</string>
+											<key>cellIdentifier</key>
+											<string>DVAMHomeUI_iPad_V1_Cell_V2</string>
+											<key>dva_availableChildren</key>
+											<array>
+												<dict>
+													<key>dva_localizedIdentifier</key>
+													<string>Productos</string>
+													<key>dva_screen</key>
+													<string>DVAMHomeUI_iPad_V1</string>
+													<key>dva_uiElements</key>
+													<dict>
+														<key>navigationBars</key>
+														<array>
+															<dict>
+																
+																
+																<key>dva_element</key>
+																<string>navigationBars</string>
+																<key>dva_localizedIdentifier</key>
+																<string>navigationBarHome</string>
+																<key>dva_uiElements</key>
+																<dict>
+																	<key>navigationBackItems</key>
+																	<array>
+																		<dict>
+																			<key>imageName</key>
+																			<string>backBarButton</string>
+																			
+																			<key>dva_element</key>
+																			<string>navigationBackItems</string>
+																			<key>dva_localizedIdentifier</key>
+																			<string>backBarButton</string>
+																		</dict>
+																	</array>
+																	<key>labels</key>
+																	<array>
+																		<dict>
+																			
+																			<key>dva_element</key>
+																			<string>labels</string>
+																			<key>dva_localizedIdentifier</key>
+																			<string>sectionTitleLabel</string>
+																			
+																			<key>text</key>
+																			<string></string>
+																		</dict>
+																		<dict>
+																			
+																			<key>dva_element</key>
+																			<string>labels</string>
+																			<key>dva_localizedIdentifier</key>
+																			<string>sectionSubTitleLabel</string>
+																			
+																			<key>text</key>
+																			<string>L’ANTIC COLONIAL</string>
+																		</dict>
+																	</array>
+																</dict>
+															</dict>
+														</array>
+														<key>collectionViews</key>
+														<array>
+															<dict>
+																
+																<key>dva_element</key>
+																<string>collectionViews</string>
+																<key>dva_localizedIdentifier</key>
+																<string>collectionProducts</string>
+																<key>dva_uiElements</key>
+																<dict>
+																	<key>collectionCells</key>
+																	<array>
+																		<dict>
+																			<key>dva_nextConfigEndpoint</key>
+																			<string>ProductDetail_Config</string>
+																			<key>cellIdentifier</key>
+																			<string>DVAMHomeUI_iPad_V1_Cell_V2</string>
+																			
+																			<key>dva_element</key>
+																			<string>collectionCells</string>
+																			<key>dva_localizedIdentifier</key>
+																			<string>productCell</string>
+																			<key>dva_uiElements</key>
+																			<dict>
+																				<key>labels</key>
+																				<array>
+																					<dict>
+																						
+																						<key>dva_element</key>
+																						<string>labels</string>
+																						<key>dva_localizedIdentifier</key>
+																						<string>sectionsLabels</string>
+																						
+																						<key>text</key>
+																						<string></string>
+																					</dict>
+																				</array>
+																				<key>views</key>
+																				<array>
+																					<dict>
+																						
+																						<key>dva_element</key>
+																						<string>views</string>
+																						<key>dva_localizedIdentifier</key>
+																						<string>backgroundColorCell</string>
+																					</dict>
+																				</array>
+																			</dict>
+																			<key>dva_dynamicValueKey</key>
+																			<string>products</string>
+																		</dict>
+																	</array>
+																</dict>
+															</dict>
+														</array>
+													</dict>
+												</dict>
+											</array>
+											
+											<key>dva_element</key>
+											<string>collectionCells</string>
+											<key>dva_localizedIdentifier</key>
+											<string>homeCell</string>
+											<key>dva_uiElements</key>
+											<dict>
+												<key>labels</key>
+												<array>
+													<dict>
+														
+														<key>dva_element</key>
+														<string>labels</string>
+														<key>dva_localizedIdentifier</key>
+														<string>sectionsLabels</string>
+														
+														<key>text</key>
+														<string></string>
+													</dict>
+												</array>
+												<key>views</key>
+												<array>
+													<dict>
+														
+														<key>dva_element</key>
+														<string>views</string>
+														<key>dva_localizedIdentifier</key>
+														<string>backgroundColorCell</string>
+													</dict>
+												</array>
+											</dict>
+											<key>dva_dynamicValueKey</key>
+											<string>sections</string>
+										</dict>
+									</array>
+									<key>collectionReusableHeaders</key>
+									<array>
+										<dict>
+											
+											<key>dva_nextConfigEndpoint</key>
+											<string>Sections</string>
+											
+											<key>dva_element</key>
+											<string>collectionReusableHeaders</string>
+											<key>dva_localizedIdentifier</key>
+											<string>offersHeader</string>
+											<key>dva_uiElements</key>
+											<dict>
+												<key>views</key>
+												<array>
+													<dict>
+														<key>dva_element</key>
+														<string>views</string>
+														<key>dva_localizedIdentifier</key>
+														<string>pageIndicator</string>
+														
+														
+													</dict>
+												</array>
+												<key>labels</key>
+												<array>
+													<dict>
+														
+														<key>dva_element</key>
+														<string>labels</string>
+														<key>dva_localizedIdentifier</key>
+														<string>conoceProdLabel</string>
+														
+														<key>text</key>
+														<string>Conoce nuestros productos</string>
+													</dict>
+												</array>
+												<key>images</key>
+												<array>
+													<dict>
+														<key>dva_dynamicValueKey</key>
+														<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/c/6/c65159efa368fa9700eafd34f72a2a02_1.jpg</string>
+														
+														<key>dva_element</key>
+														<string>images</string>
+														<key>dva_localizedIdentifier</key>
+														<string>offerImages</string>
+													</dict>
+												</array>
+											</dict>
+											<key>dva_dynamicValueKey</key>
+											<string>offers</string>
+										</dict>
+									</array>
+									<key>collectionReusableFooters</key>
+									<array>
+										<dict>
+											
+											<key>cellIdentifier</key>
+											<string>DVAMHomeUI_iPad_V1_Footer_V2</string>
+											
+											<key>dva_element</key>
+											<string>collectionReusableFooters</string>
+											<key>dva_localizedIdentifier</key>
+											<string>collectionFooter</string>
+											<key>dva_uiElements</key>
+											<dict>
+												<key>images</key>
+												<array>
+													<dict>
+														
+														<key>imageName</key>
+														<string>footerLogoAntic</string>
+														
+														<key>dva_element</key>
+														<string>images</string>
+														<key>dva_localizedIdentifier</key>
+														<string>logFooterImage</string>
+													</dict>
+													<dict>
+														
+														<key>imageName</key>
+														<string>footerPrince</string>
+														<key>dva_element</key>
+														<string>images</string>
+														<key>dva_localizedIdentifier</key>
+														<string>logFooterImage</string>
+													</dict>
+													<dict>
+														<key>imageName</key>
+														<string>footerMarble</string>
+														<key>dva_element</key>
+														<string>images</string>
+														<key>dva_localizedIdentifier</key>
+														<string>logFooterFull</string>
+													</dict>
+												</array>
+											</dict>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</array>
+			
+			<key>dva_localizedIdentifier</key>
+			<string>Menu</string>
+			<key>dva_screen</key>
+			<string>DVAMMainUI_iPad_V1</string>
+			
+			<key>dva_uiElements</key>
+			<dict>
+				<key>images</key>
+				<array>
+					<dict>
+						<key>origin</key>
+						<dict>
+							<key>x</key>
+							<integer>25</integer>
+							<key>y</key>
+							<integer>68</integer>
+						</dict>
+						
+						
+						<key>dva_element</key>
+						<string>images</string>
+						<key>dva_localizedIdentifier</key>
+						<string>imageMenuLogo</string>
+						<key>imageName</key>
+						<string>footerLogoAntic</string>
+					</dict>
+				</array>
+				<key>labels</key>
+				<array>
+					<dict>
+						
+						<key>dva_element</key>
+						<string>labels</string>
+						<key>dva_localizedIdentifier</key>
+						<string>copyright</string>
+						
+						<key>text</key>
+						<string>© 2017 Antic Colonial</string>
+					</dict>
+				</array>
+				<key>tableViews</key>
+				<array>
+					<dict>
+						
+						<key>dva_element</key>
+						<string>tableViews</string>
+						<key>dva_localizedIdentifier</key>
+						<string>tableViewMenu</string>
+						<key>dva_uiElements</key>
+						<dict>
+							<key>tableCells</key>
+							<array>
+								<dict>
+									<key>dva_nextConfigEndpoint</key>
+									<string>Home</string>
+									
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>homeCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageCatalogo</string>
+												<key>imageName</key>
+												<string>iconCatalogo</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>homeCellLabel</string>
+												
+												<key>text</key>
+												<string>Catálogo L&apos;Antic Colonial</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									
+									<key>dva_nextConfigEndpoint</key>
+									<string>Order_Lists</string>
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>listasCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageListas</string>
+												<key>imageName</key>
+												<string>iconListas</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>listasCellLabel</string>
+												
+												<key>text</key>
+												<string>Mis Listas de Productos</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									<key>dva_nextConfigEndpoint</key>
+									<string>ShopsConfig</string>
+									
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>localizadorCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageLocalizador</string>
+												<key>imageName</key>
+												<string>iconLocalizador</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>listasCellLabel</string>
+												
+												<key>text</key>
+												<string>Localizador de Tiendas</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									<key>dva_nextConfigEndpoint</key>
+									<string>VideoGallery_Config</string>
+									
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>videosCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageVideos</string>
+												<key>imageName</key>
+												<string>iconVideos</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>videosCellLabel</string>
+												
+												<key>text</key>
+												<string>Galería de Vídeos</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									<key>dva_nextConfigEndpoint</key>
+									<string>Search_Config</string>
+									
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>videosCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageSearch</string>
+												<key>imageName</key>
+												<string>iconSearch</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>busquedaCellLabel</string>
+												
+												<key>text</key>
+												<string>Búsqueda Avanzada</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									
+									<key>dva_nextConfigEndpoint</key>
+									<string>Configuration_config</string>
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>videosCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageConfig</string>
+												<key>imageName</key>
+												<string>iconConfig</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>configCellLabel</string>
+												
+												<key>text</key>
+												<string>Configuración</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									<key>dva_nextConfigEndpoint</key>
+									<string>Contact</string>
+									
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>contactoCell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>images</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>images</string>
+												<key>dva_localizedIdentifier</key>
+												<string>imageLocalizador</string>
+												<key>imageName</key>
+												<string>iconContactAntic</string>
+											</dict>
+										</array>
+										<key>labels</key>
+										<array>
+											<dict>
+												
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>listasCellLabel</string>
+												
+												<key>text</key>
+												<string>Empresa</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+								<dict>
+									
+									<key>dva_availableChildren</key>
+									<array>
+										<dict>
+											<key>dva_uiElements</key>
+											<dict>
+												<key>navigationBars</key>
+												<array>
+													<dict>
+														
+														<key>dva_element</key>
+														<string>navigationBars</string>
+														<key>dva_localizedIdentifier</key>
+														<string>navigationBarHome</string>
+														<key>dva_uiElements</key>
+														<dict>
+															<key>navigationBarButtons</key>
+															<array>
+																<dict>
+																	<key>imageName</key>
+																	<string>menu</string>
+																	
+																	<key>dva_element</key>
+																	<string>navigationBarButtons</string>
+																	<key>dva_localizedIdentifier</key>
+																	<string>menuButton</string>
+																</dict>
+															</array>
+															<key>images</key>
+															<array>
+																<dict>
+																	<key>imageName</key>
+																	<string>logoIdeus</string>
+																	
+																	<key>dva_element</key>
+																	<string>images</string>
+																	<key>dva_localizedIdentifier</key>
+																	<string>logoImage</string>
+																</dict>
+															</array>
+														</dict>
+													</dict>
+												</array>
+											</dict>
+											<key>dva_localizedIdentifier</key>
+											<string>Home</string>
+											<key>dva_screen</key>
+											<string>DVAMContactUI_iPad_V1</string>
+											<key>dva_externalScreen</key>
+											<true/>
+										</dict>
+									</array>
+									<key>dva_element</key>
+									<string>tableCells</string>
+									<key>dva_localizedIdentifier</key>
+									<string>changeUICell</string>
+									<key>dva_uiElements</key>
+									<dict>
+										<key>labels</key>
+										<array>
+											<dict>
+												<key>dva_element</key>
+												<string>labels</string>
+												<key>dva_localizedIdentifier</key>
+												<string>elementCellLabel</string>
+												
+												
+												<key>text</key>
+												<string>Cambiar UI</string>
+											</dict>
+										</array>
+									</dict>
+									<key>cellIdentifier</key>
+									<string>DVAMMainUI_iPad_V1_Cell_V3</string>
+								</dict>
+							</array>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

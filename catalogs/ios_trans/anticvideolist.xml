@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>_id</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>_id</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>localizedName</key>
+		<string>Prueba 1</string>
+		<key>video</key>
+		<array>
+			<dict>
+				<key>_id</key>
+				<string>1</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 1</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>2</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 2</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>3</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 3</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>4</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 4</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>2</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>_id</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>localizedName</key>
+		<string>Prueba 2</string>
+		<key>video</key>
+		<array>
+			<dict>
+				<key>_id</key>
+				<string>1</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 5</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>2</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 6</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>3</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 7</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>4</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 8</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>3</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>_id</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>localizedName</key>
+		<string>Prueba 3</string>
+		<key>video</key>
+		<array>
+			<dict>
+				<key>_id</key>
+				<string>1</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 1</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>2</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 2</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>3</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 3</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>4</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 4</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>_id</key>
+		<string>4</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>_id</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>localizedName</key>
+		<string>Prueba 4</string>
+		<key>video</key>
+		<array>
+			<dict>
+				<key>_id</key>
+				<string>1</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 1</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>2</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 2</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>3</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 3</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+			<dict>
+				<key>_id</key>
+				<string>4</string>
+				<key>image</key>
+				<string>video</string>
+				<key>localizedName</key>
+				<string>video 4</string>
+				<key>video</key>
+				<string>http://video.dailymail.co.uk/video/mol/test/2016/09/21/5739239377694275356/1024x576_MP4_5739239377694275356.mp4</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

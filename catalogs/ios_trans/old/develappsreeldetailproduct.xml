@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1</string>
+	<key>text</key>
+	<string>FERMAX</string>
+	<key>description</key>
+	<string>Desde cualquier móvil, el monitor de videoportero VIVO de FERMAX permite controlar las puertas de tu vivienda, desde cualquier lugar del mundo.
+
+Con esta APP, se pueden desviar las llamadas recibidas en la placa de la calle a dispositivos móviles, pudiendo ver la imagen del visitante, establecer comunicación con él y, en caso deseado, abrir la puerta.
+Si no hay nadie en la vivienda, la llamada se desvía al dispositivo móvil del residente, a cualquier lugar del mundo. Sólo necesitará tener conexión 3G o Wi-Fi para recibirla.
+
+Una vez instalada, el monitor de videoportero VIVO funciona con normalidad, pudiendo atender la llamada directamente... si hay alguien en casa.</string>
+	<key>image</key>
+	<dict>
+		<key>imageName</key>
+		<string>fermax</string>
+		<key>identifier</key>
+		<string>1</string>
+	</dict>
+	<key>brand</key>
+	<dict>
+		<key>identifier</key>
+		<string>Fermax</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxLogo</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+	</dict>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxProduct1</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxProduct1</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>fermaxProduct1</string>
+			<key>identifier</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+{
+	"name": "NOTIFICATIONS GET /drugs/",
+	"request": {
+		"url": "{{URL}}/drugs/",
+		"method": "GET",
+		"header": [
+			{
+				"key": "Authorization",
+				"value": "Token {{doctor_token}}",
+				"description": ""
+			},
+			{
+				"key": "Content-Type",
+				"value": "application/json",
+				"description": ""
+			}
+		],
+		"body": {
+			"mode": "raw",
+			"raw": ""
+		},
+		"description": ""
+	},
+	"response": []
+}

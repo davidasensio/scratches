@@ -1,0 +1,30 @@
+#ios_key = value;android_key
+#<string name="$2">$1</string>
+#<string name="activity_license">$1</string>
+
+
+
+"license_title" = "Licencia";activity_license
+
+<string name="configuration_busy_mode">Modo Ocupado</string>configuration_busy_mode
+<string name="configuration_device_name">Nombre dispositivo</string>configuration_device_name
+"config_view_micro_gain_title" = "Ganancia micrófono";configuration_microphone_gain
+"config_view_micro_gain_speaker_title" = "Manos libres";configuration_handsfree
+"config_view_micro_gain_headset_title" = "Auricular";configuration_headset
+"config_view_video_quality" = "Calidad Video";configuration_video_quality
+"config_view_video_quality_wifi_title" = "con WIFI";configuration_wifi
+"config_view_video_quality_3g_title" = "con 3G/4G";configuration_3G
+"quality_off_title" = "Sin video";configuration_value_off
+"quality_low_title" = "Baja";configuration_value_low
+"quality_medium_title" = "Media";configuration_value_medium
+"quality_high_title" = "Alta";configuration_value_high
+"license_configuration_alert_title" = "Caution";configuration_license_alert_title
+"license_configuration_alert_message" = "Do you like to change your license?";configuration_license_alert_message
+"scan_view_top_title" = "Scan QR Code";qr_reader_title
+"pair_off_alert_body" = "Do you want to pair off the device?";pairing_question_text
+
+
+//Remove all but <string>
+^(?!<).*
+
+^(?!<).*$\n

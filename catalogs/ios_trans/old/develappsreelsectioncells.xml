@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>0</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>mobileCommerce</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>Mobile Commerce</string>
+		</dict>
+		<key>text</key>
+		<string>Mobile Commerce</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>saludDevelapps</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>salud</string>
+		</dict>
+		<key>text</key>
+		<string>Healhtcare/Salud/Deporte</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>2</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>transporte</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>transporte</string>
+		</dict>
+		<key>text</key>
+		<string>Transporte/Logística</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>3</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>serviciosFinancieros</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>serviciosFinancieros</string>
+		</dict>
+		<key>text</key>
+		<string>Servicios Financieros</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>4</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>consumo</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>consumo</string>
+		</dict>
+		<key>text</key>
+		<string>Consumo/Retail</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>5</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>startups</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>startups</string>
+		</dict>
+		<key>text</key>
+		<string>Startups</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Do you like to change your license?</string>
+<string name="qr_reader_title">Imbas Kod QR</string>
+<string name="configuration_license_alert_title">Caution</string>
+<string name="pairing_question_text">Do you want to pair off the device?</string>
+<string name="configuration_value_off">Tiada Video</string>
+<string name="configuration_value_low">Rendah</string>
+<string name="configuration_value_medium">Serdahana</string>
+<string name="configuration_value_high">Tinggi</string>
+<string name="configuration_busy_mode">Mode sibuk</string>
+<string name="configuration_device_name">Peranti</string>
+<string name="configuration_microphone_gain">mikrofon gain</string>
+<string name="configuration_handsfree">bebas tangan</string>
+<string name="configuration_headset">set kepala</string>
+<string name="configuration_video_quality">Kualiti video</string>
+<string name="configuration_wifi">melalui WIFI</string>
+<string name="configuration_3G">melalui 3G/4G</string>

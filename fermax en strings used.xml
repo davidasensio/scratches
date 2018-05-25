@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ERRORS -->
+    <string name="error_unknown">Ha ocurrido un error</string>
+
+    <!-- CAPTURE MODULE STRINGS (IMPORTED FROM ZXING) -->
+    <string name="app_picker_name">Applications</string>
+    <string name="history_title">History</string>
+    <string name="preferences_name">Settings</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="share_name">Share via barcode</string>
+
+    <!-- END OF CAPTURE MODULE STRINGS (IMPORTED FROM ZXING) -->
+
+    <!-- FERMAXAPP MODULE STRINGS -->
+
+    <string name="linphone_manager_debug">Linphone Wrapper</string>
+    <!-- Fix strings -->
+    <string name="application_name" translatable="false">LYNXed</string>
+    <string name="url" translatable="false">www.lynxbyfermax.com</string>
+    <string name="owner" translatable="false">Fermax</string>
+    <string name="link_status" translatable="false">Link Status</string>
+    <string name="imageDesc" translatable="false">Default image</string>
+
+    <!-- Invisible settings -->
+    <string name="pref_deskey" translatable="false">Clave de comunicación</string>
+    <string name="pref_deskeyDesc" translatable="false">Clave de comunicación</string>
+    <string name="pref_vivoIP" translatable="false">IP</string>
+    <string name="pref_vivoIPDesc" translatable="false">VIVO IP</string>
+    <string name="pref_vivouser" translatable="false">User</string>
+    <string name="pref_vivouserDesc" translatable="false">VIVO User</string>
+    <string name="pref_rlynxIP" translatable="false">SGM IP</string>
+    <string name="pref_rlynxIPDesc" translatable="false">SGM IP</string>
+    <string name="pref_vpnServer" translatable="false">VPN IP Server</string>
+    <string name="pref_vpnServerDesc" translatable="false">VPN IP Server</string>
+    <string name="pref_keepalive" translatable="false">Keepalive timeout</string>
+    <string name="pref_keepaliveDesc" translatable="false">KeepAlive timeout (s)</string>
+    <string name="pref_vivopwd" translatable="false">Password</string>
+    <string name="pref_vivopwdDesc" translatable="false">VIVO Password</string>
+
+    <!-- Linphone -->
+    <string name="couldnt_accept_call" translatable="false">An error occurred while accepting call</string>
+    <string name="pref_transport_udp" translatable="false">UDP</string>
+    <string name="pref_transport_tcp" translatable="false">TCP</string>
+    <string name="pref_transport_tls" translatable="false">TLS</string>
+    <string name="unknown_incoming_call_name" translatable="false">Unknown</string>
+
+
+    <!-- i18n strings -->
+    <string name="app_init">- Home -</string>
+
+    <string name="qr_cancel">Operation cancelled by user</string>
+    <string name="qr_badFile">Invalid downloaded file</string>
+    <string name="qr_linkError">Pairing error</string>
+
+    <string name="conn_error">Connection error</string>
+    <string name="conn_internet">No network available</string>
+    <string name="conn_connection">Connecting to the server&#8230;</string>
+
+    <string name="linkact_link">Pair</string>
+    <string name="linkact_openDoor">Open Door</string>
+    <string name="linkact_unlink">Pair-off</string>
+
+    <string name="open_panelList">Panel List</string>
+    <string name="open_nopanels_desc">No panels retrieved</string>
+
+    <string name="pref_close">Close Application</string>
+    <string name="pref_about">About&#8230;</string>
+    <string name="pref_vivodevice">Device</string>
+    <string name="pref_vivodeviceDesc">LYNXed Device Name</string>
+    <string name="pref_button">Settings</string>
+    <string name="pref_busy">Busy Mode</string>
+    <string name="pref_busyDesc">Ignore incoming calls. Show me just the notification.</string>
+
+    <string name="pref_volumenDesc">Inbound audio volume</string>
+    <string name="pref_volumen">Volume</string>
+
+    <string name="pref_calls">Call Settings</string>
+    <string name="call_incoming">Incoming Call</string>
+    <string name="call_miss">Miss Call</string>
+    <string name="call_answered">Answered Call</string>
+    <string name="call_answer">Answer</string>
+    <string name="call_hangup">Hung up</string>
+    <string name="call_newIncoming">New Incoming Call</string>
+    <string name="call_answerNewIncoming">Answer the new incoming call?</string>
+
+    <string name="call_opendoorTitle">Open Door</string>
+    <string name="call_opendoor">Select the door to open</string>
+    <string name="call_opendoorResult">Door %s has been opened</string>
+    <string name="call_opendoorNotAllowed">Opening Door not allowed</string>
+    <string name="call_opendoorError">Couldn\'t open door.</string>
+
+    <string name="pref_microHeadsetDesc">Microphone gain in headset mode</string>
+    <string name="pref_microHeadset">Microphone (headset)</string>
+    <string name="pref_microHandsfreeDesc">Microphone gain in handsfree mode</string>
+    <string name="pref_microHandsfree">Microphone (handsfree)</string>
+
+    <string name="pref_reload">Reload</string>
+    <string name="pref_advanced">Advanced Settings</string>
+    <string name="pref_advancedDesc">Advanced Audio Settings. Keep invariable unless you know what are you changing.</string>
+
+    <string name="adv_ec">Echo cancellation</string>
+    <string name="adv_ecDesc">Turn on/off the software echo cancellation. If the cellular implements an Acoustic Echo Cancellation (AEC) by hardware, this option should be disabled.</string>
+    <string name="adv_ec_delay">Echo delay</string>
+	<string name="adv_ec_delayDesc">Expected delay of echo in milliseconds. Use this when you have a
+		fixed latency in the sound hardware. This allows to reduce the tail length of the echo
+		canceller, which speeds up convergence and reduces complexity of computations.Default value: 100ms</string>
+    <string name="adv_ec_tail_len">Echo cancellation tail length</string>
+	<string name="adv_ec_tail_lenDesc">Tail length of echo canceller in milliseconds.Ideally it
+		should be no more than the expected duration of the echo.Default value: 60ms</string>
+    <string name="adv_ng">Noise Gate</string>
+    <string name="adv_ngDesc">The noise gate is located just after mic input. Tells whether noise gate is active</string>
+    <string name="adv_ng_thres">Noise Gate threshold</string>
+	<string name="adv_ng_thresDesc">Noise gate threshold in linear power. Above this
+		threshold the noise gate becomes bypass. Default value: 0.005</string>
+    <string name="pref_PushToTalkDesc">Enable/Disable Push to Talk mode</string>
+    <string name="pref_PushToTalk">Push To Talk</string>
+
+    <string name="reload_message">Settings loaded successfully</string>
+
+    <string name="pref_videoQualityWifiDesc">Improve WIFI communication adjusting the video quality</string>
+    <string name="pref_videoQualityWifi">Video Quality over WIFI</string>
+    <string name="pref_videoQuality3gDesc">Improve 3G communication adjusting the video quality</string>
+    <string name="pref_videoQuality3g">Video Quality over 3G/4G</string>
+
+
+    <string-array name="quality">
+        <item>No Video</item>
+        <item>Video</item>
+        <item>Enhanced Video</item>
+        <item>High Quality Video</item>
+    </string-array>
+
+    <string-array name="qualityValues">
+        <item>0</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+    </string-array>
+
+    <!-- END OF FERMAXAPP MODULE STRINGS -->
+
+    <!-- STRONGSWAN MODULE STRINGS -->
+
+    <!-- VPN state fragment -->
+    <string name="state_connecting">VPN Connecting&#8230;</string>
+    <string name="state_connected">VPN Connected</string>
+    <string name="state_disconnecting">VPN Disconnecting&#8230;</string>
+    <string name="state_disabled">No active VPN</string>
+    <string name="state_error">Error</string>
+
+    <!-- Errors -->
+    <string name="error_unreachable">VPN Server is unreachable.</string>
+    <string name="error_peer_auth_failed">VPN Verifying server authentication failed.</string>
+    <string name="error_auth_failed">VPN User authentication failed.</string>
+    <string name="error_generic">VPN Unspecified failure while connecting.</string>
+    <string name="error_lookup_failed">VPN Server address lookup failed.</string>
+
+    <!-- END OF STRONGSWAN MODULE STRINGS -->
+
+    <!-- FERMAX SDK STRINGS -->
+
+    <!-- License -->
+    <string name="activity_license">License</string>
+    <string name="login_license">License</string>
+    <string name="validate_bt">Validate</string>
+    <string name="login_license_number_hint">License number</string>
+    <string name="login_first_name_hint">Name</string>
+    <string name="login_last_name_hint">Surname</string>
+    <string name="login_phone_hint">Phone number</string>
+    <string name="login_email_hint">Email address</string>
+    <string name="empty_fields_error">Please fill fields in the form</string>
+    <string name="invalid_email_error">Please introduce a valid email address</string>
+    <string name="invalid_phone_error">Please introduce a valid phone</string>
+    <string name="generic_license_error">There was a problem with this license number</string>
+    <string name="generic_check_license_error">This license number cannot be verified</string>
+
+    <!-- Configuration -->
+    <string name="activity_config">Configuration</string>
+    <string name="configuration_device_name">Device name</string>
+    <string name="configuration_microphone_gain">Microphone gain</string>
+    <string name="configuration_video_quality">Video Quality</string>
+    <string name="configuration_validation_disabled">Push to validate license</string>
+    <string name="configuration_validation_enabled">Valid license</string>
+    <string name="configuration_busy_mode">Busy Mode</string>
+    <string name="configuration_handsfree">Handsfree</string>
+    <string name="configuration_headset">Headset</string>
+    <string name="configuration_wifi">Over WIFI</string>
+    <string name="configuration_3G">Over 3G/4G</string>
+    <string name="configuration_value_off">Off</string>
+    <string name="configuration_value_low">Low</string>
+    <string name="configuration_value_medium">Medium</string>
+    <string name="configuration_value_high">High</string>
+    <string name="configuration_license_alert_title">Caution</string>
+    <string name="configuration_license_alert_message">Do you want to change your license? This device will pair off from router.</string>
+
+    <!-- QR Reader -->
+    <string name="qr_reader_title">Scan QR Code</string>
+
+    <!-- Pairing -->
+    <string name="pairing_question_text">Do you want to pair-off this device?</string>
+    <string name="pairing_license_alert_message">Do you want to change your license?</string>
+    <string name="pairing_you_license_code_is">You license code is</string>
+    <string name="pairing_change_license_code">change license code</string>
+    <string name="cluf_cancel">CANCEL</string>
+    <string name="cluf_agree">I AGREE</string>
+    <string name="cluf_title">License agreement</string>
+    <string name="version">Version</string>
+    <string name="license_error_title">License error</string>
+    <string name="license_error_message_cancelled">The license is cancelled</string>
+    <string name="license_error_message_expired">The license is expired</string>
+    <string name="license_error_message_not_found">Not found the license</string>
+    <string name="license_message_validated">License validated</string>
+    <string name="license_title_ok">Ok</string>
+    <string name="zxing_msg_default_status"/>
+    <!-- END OF FERMAX SDK STRINGS -->
+
+</resources>

@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Do you like to change your license?</string>
+<string name="qr_reader_title">Scan QR code</string>
+<string name="configuration_license_alert_title">Voorzichtigheid</string>
+<string name="pairing_question_text">Heeft u wilt koppelen uit het apparaat?</string>
+<string name="configuration_value_off">Geen Video</string>
+<string name="configuration_value_low">Laag</string>
+<string name="configuration_value_medium">Medium</string>
+<string name="configuration_value_high">Hoog</string>
+<string name="configuration_busy_mode">Bezet</string>
+<string name="configuration_device_name">Toestel</string>
+<string name="configuration_microphone_gain">Microfoon volume</string>
+<string name="configuration_handsfree">Handsfree</string>
+<string name="configuration_headset">Headset</string>
+<string name="configuration_video_quality">Videokwaliteit</string>
+<string name="configuration_wifi">via WIFI</string>
+<string name="configuration_3G">via 3G/4G</string>

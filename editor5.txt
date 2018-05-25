@@ -1,0 +1,11 @@
+@JvmSynthetic internal fun terminateCall() {
+        if (linphoneCore!!.isIncall) {
+            try {
+                Handler().postDelayed({
+                    linphoneCore!!.terminateCall(linphoneCore!!.currentCall)
+                }, 300)
+            } catch (e: Exception) {
+                android.util.Log.e("LinphoneManager", e.toString())
+            }
+        }
+    }

@@ -1,0 +1,31 @@
+----- dva screen -----
+
+	<key>dva_screen</key>
+	<string>Order_Detail_UI_Tablet_V1</string>
+
+        +++++ Code needed +++++
+
+            + Layout xml:           activity_nnnnn_vX.xml
+            + Activity:             NnnnnUITabletVXActivity.java
+            + AndroidManifest:
+                <activity android:name=".modules.lists.OrderDetailUITabletV1Activity">
+                    <intent-filter>
+                        <action android:name="Order_Detail_UI_Tablet_V1"/>
+                        <category android:name="android.intent.category.DEFAULT"/>
+                    </intent-filter>
+                </activity>
+
+
+
+----- Cell Identifier -----
+
+    <key>cellIdentifier</key>
+    <string>Order_Detail_UI_Tablet_V1_Cell_V1</string>
+
+        +++++ Code needed +++++
+
+            + Layout xml:           cell_vX_nnnnn_vX.xml
+            + Holder:               nnnnnUITabletVXCellVXHolder.java
+            + enum HolderKind:      NNNNN_UI_TABLET_V1_CELL_VN("Nnnn_UI_Tablet_VN_Cell_VN")
+
+

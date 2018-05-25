@@ -1,0 +1,59 @@
+
+                                      HOFMANN
+
+===============================================================================
+Estimación de tareas para la versión 3.0.0 de la applicación
+===============================================================================
+
+Frameworks y librerías actuales (MVP, Butterknife, testing)
+    - Utilizar MVP y Butterknife para toda la applicación:
+
+        + Selector de productos             -> 2 días
+
+        + Productos:
+            - Calendario                    -> 2 días
+            - SmartAlbums                   -> 2 días
+            - WallDeco                      -> 2 días
+            - PhotoPrints                   -> 3 días
+
+        + Otros:
+            - Login                         -> 1 días
+            - Library                       -> 4 días
+            - Notifications                 -> 2 días
+            - OrderWeb                      -> 2 días
+            - EditorImage                   -> 3 días
+
+
+
+Code refactoring:
+    - Refactorización de la clase CCompiledPackageGeneratorService.java (GodClass of 1500 lines)    -> 3 días
+    - Eliminar el módulo de hofmannTablet                                                           -> 1/2 dia
+    - Eliminar imágenes que no se usan                                                              -> 2 días
+    - Optimizar imágenes                                                                            -> 1/2 dia
+    - Android Lint and code analyzer:                                                               -> 4 días
+        + Android Lint inspections:
+            - Accessibility, Correctness, Internationalizations, Performance, Hardcoding, Warnings supression, etc
+
+Testing:
+    - Unit testing:
+        + Productos -> 4 días
+        + Soap      -> 1 días
+
+
+Otros:
+    - Investigación para optimizar el procesado de imágenes (Actualmente es un poco lento en Android) -> 4 días
+    - ¿Nuevos productos: LFAOM, etc?
+    - ¿Nuevas plantillas de calendario?
+    - ¿Cambiar el ViewPager, por uno más vistoso?
+
+
+Total:
+    23 días -> Frameworks y librerías actuales (MVP, Butterknife, testing)
+    11 días -> Code refactoring:
+    5 días  -> Testing
+ +  ?? días -> Otros
+ -------------------
+    39 días apróx + lo que se pueda añadir de "Otros"
+
+
+

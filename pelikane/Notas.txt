@@ -1,0 +1,1398 @@
+Bitácora
+========
+
+- Git Clone AndroidBaseProject
+- Copy directory to new Repository project and push (Permissions needed for master brach)
+- Access Doc/Api url:
+    + Doc: http://develapps.hopto.org:84/doc/
+    + Api: http://develapps.hopto.org:84/api/v1/
+
+- Generate token:
+    + Ask for user/password and call login operation:
+        POST: http://develapps.hopto.org:84/api/v1/login/ with:
+            {
+                "username": "inside",
+                "password": "12345678"
+            }
+            {
+                "username": "inside1",
+                "password": "passw0rd"
+            }
+
+        Returns token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYWJkMWIyYWM4MWFjNWY0MDYwYzM3ZCIsImlhdCI6MTUyMTUzMjkyMCwiZXhwIjoxNTIxNjE5MzIwfQ.2kJp8Bv6MDtE06ClmzAs_In5Ytb2ZdGch3ynqt4fTCQ
+        save to enviroment var
+
+- Look for client data:
+         bootstrap/vasco/data/csv/mediamarkt/cargaMediamarkt.js
+
+- User with permissions: inside/12345678
+
+ - BuildTypes: release and debug
+ - productFlavors: dev / staging and pro
+
+ - LiveData Listado de envios:
+
+    Recycler view
+    AsyncTask on response retrofit
+
+ - Detalle envío
+    Datos de detalle por intent
+
+
+
+         
+         
+         
+         
+         
+
+
+
+
+
+
+
+Fork me on GitHub
+jsonschema2pojo  PayPal – The safer, easier way to pay online.   Why?
+Generate Plain Old Java Objects from JSON or JSON-Schema.
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+                                                        ]
+                                                    }
+                                                ],
+                                                "chartLabels": [
+                                                    "Paquetes Entregados",
+                                                    "Cancelados"
+                                                ],
+                                                "options": {
+                                                    "maintainAspectRatio": false,
+                                                    "scales": {
+                                                        "xAxes": [
+                                                            {
+                                                                "display": false
+                                                            }
+                                                        ],
+                                                        "yAxes": [
+                                                            {
+                                                                "display": false
+                                                            }
+                                                        ]
+                                                    },
+                                                    "elements": {
+                                                        "line": {
+                                                            "borderWidth": 2
+                                                        },
+                                                        "point": {
+                                                            "radius": 0,
+                                                            "hitRadius": 10,
+                                                            "hoverRadius": 4
+                                                        }
+                                                    },
+                                                    "legend": {
+                                                        "position": "bottom"
+                                                    }
+                                                },
+                                                "chartColours": null,
+                                                "chartLegend": true
+                                            },
+                                            {
+                                                "chartType": "pie",
+                                                "title": "ENVÍOS POR PRODUCTO",
+                                                "subtitle": "Últimos 30 días",
+                                                "chartData": [
+                                                    {
+                                                        "data": [
+                                                            45,
+                                                            45,
+                                                            12,
+                                                            25
+                                                        ]
+                                                    }
+                                                ],
+                                                "chartLabels": [
+                                                    "Lavadoras",
+                                                    "Frigoríficos",
+                                                    "TV",
+                                                    "Resto de productos"
+                                                ],
+                                                "options": {
+                                                    "maintainAspectRatio": false,
+                                                    "scales": {
+                                                        "xAxes": [
+                                                            {
+                                                                "display": false
+                                                            }
+                                                        ],
+                                                        "yAxes": [
+                                                            {
+                                                                "display": false
+                                                            }
+                                                        ]
+                                                    },
+                                                    "elements": {
+                                                        "line": {
+                                                            "borderWidth": 2
+                                                        },
+                                                        "point": {
+                                                            "radius": 0,
+                                                            "hitRadius": 10,
+                                                            "hoverRadius": 4
+                                                        }
+                                                    },
+                                                    "legend": {
+                                                        "position": "bottom"
+                                                    }
+                                                },
+                                                "chartColours": null,
+                                                "chartLegend": true
+                                            }
+                                        ]
+                                    },
+                                    "services": {
+                                        "statusFilters": [
+                                            {
+                                                "title": "incidence_filter_title",
+                                                "key": "incident",
+                                                "active": false
+                                            },
+                                            {
+                                                "title": "received_filter_title",
+                                                "key": "created",
+                                                "active": false
+                                            },
+                                            {
+                                                "title": "inprocess_filter_title",
+                                                "key": "inProgress",
+                                                "active": false
+                                            },
+                                            {
+                                                "title": "delivered_filter_title",
+                                                "key": "completed",
+                                                "active": false
+                                            },
+                                            {
+                                                "title": "canceled_filter_title",
+                                                "key": "cancelled",
+                                                "active": false
+                                            }
+                                        ]
+                                    }
+                                },
+                                "description": "Configuration for mediamarkt_canary",
+                                "customClient": "mediamarkt_canary",
+                                "active": true,
+                                "apiVersion": "1",
+                                "createdAt": "2018-03-22T11:19:29.906Z",
+                                "updatedAt": "2018-03-22T11:19:29.906Z",
+                                "__v": 0
+                            },
+                            "preferedLanguage": "es",
+                            "active": true,
+                            "apiVersion": "1",
+                            "userTypeDisc": "clientBusiness",
+                            "createdAt": "2018-03-22T11:19:29.934Z",
+                            "updatedAt": "2018-03-22T11:19:29.934Z",
+                            "__v": 0
+                        },
+                        "image": {
+                            "_id": "5ab39141a758d807d0a0b8d0",
+                            "s3": {
+                                "identifier": "6830602145ea1f314d1ff40889eb001b",
+                                "url": "https://development-pelikane.s3.amazonaws.com/6830602145ea1f314d1ff40889eb001b"
+                            },
+                            "blobName": "mediamarkt_logo",
+                            "placeholderName": "placeholdervasco",
+                            "md5": "6830602145ea1f314d1ff40889eb001b",
+                            "contentType": "image/png",
+                            "owner": "5ab39141a758d807d0a0b8cf",
+                            "apiVersion": "1",
+                            "__v": 0
+                        },
+                        "active": true,
+                        "apiVersion": "1",
+                        "productType": "mm_model_product",
+                        "createdAt": "2018-03-22T11:19:38.880Z",
+                        "updatedAt": "2018-03-22T11:19:38.880Z",
+                        "__v": 0
+                    },
+                    "_id": "5ab39165a758d807d0a0c712"
+                }
+            ]
+}
+Preview   Zip
+Package
+com.example
+Class name
+PedidoCarritoTmp
+Target language:
+Java   Scala
+Source type:
+JSON Schema   JSON
+YAML Schema   YAML
+Annotation style:
+Jackson 2.x   Jackson 1.x
+Gson   Moshi   None
+Generate builder methods
+Use primitive types
+Use long integers
+Use double numbers
+Use Joda dates
+Use Commons-Lang3
+Include getters and setters
+Include constructors
+Include hashCode and equals
+Include toString
+Include JSR-303 annotations
+Allow additional properties
+Make classes serializable
+Make classes parcelable
+Initialize collections
+Property word delimiters:
+- _
+ ×Copy to Clipboard
+Preview
+-----------------------------------com.example.Article.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Article {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: String = _
+}
+-----------------------------------com.example.ArticleRef.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class ArticleRef {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: List[String] = null
+
+@SerializedName("valueFormat")
+@Expose
+@BeanProperty
+var valueFormat: String = _
+}
+-----------------------------------com.example.ChartDatum.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class ChartDatum {
+
+@SerializedName("data")
+@Expose
+@BeanProperty
+var data: List[Integer] = null
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+}
+-----------------------------------com.example.ClientName.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class ClientName {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: String = _
+}
+-----------------------------------com.example.Configuration.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Configuration {
+
+@SerializedName("main")
+@Expose
+@BeanProperty
+var main: Main = _
+
+@SerializedName("services")
+@Expose
+@BeanProperty
+var services: Services = _
+}
+-----------------------------------com.example.Date.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Date {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: String = _
+
+@SerializedName("format")
+@Expose
+@BeanProperty
+var format: List[String] = null
+}
+-----------------------------------com.example.Elements.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Elements {
+
+@SerializedName("line")
+@Expose
+@BeanProperty
+var line: Line = _
+
+@SerializedName("point")
+@Expose
+@BeanProperty
+var point: Point = _
+}
+-----------------------------------com.example.Header.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Header {
+
+@SerializedName("date")
+@Expose
+@BeanProperty
+var date: Date = _
+
+@SerializedName("article")
+@Expose
+@BeanProperty
+var article: Article = _
+
+@SerializedName("clientName")
+@Expose
+@BeanProperty
+var clientName: ClientName = _
+
+@SerializedName("articleRef")
+@Expose
+@BeanProperty
+var articleRef: ArticleRef = _
+
+@SerializedName("shipper")
+@Expose
+@BeanProperty
+var shipper: Shipper = _
+
+@SerializedName("status")
+@Expose
+@BeanProperty
+var status: Status = _
+}
+-----------------------------------com.example.Image.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Image {
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+
+@SerializedName("s3")
+@Expose
+@BeanProperty
+var s3: S3 = _
+
+@SerializedName("blobName")
+@Expose
+@BeanProperty
+var blobName: String = _
+
+@SerializedName("placeholderName")
+@Expose
+@BeanProperty
+var placeholderName: String = _
+
+@SerializedName("md5")
+@Expose
+@BeanProperty
+var md5: String = _
+
+@SerializedName("contentType")
+@Expose
+@BeanProperty
+var contentType: String = _
+
+@SerializedName("owner")
+@Expose
+@BeanProperty
+var owner: String = _
+
+@SerializedName("apiVersion")
+@Expose
+@BeanProperty
+var apiVersion: String = _
+
+@SerializedName("__v")
+@Expose
+@BeanProperty
+var v: java.lang.Integer = _
+}
+-----------------------------------com.example.Image_.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Image_ {
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+
+@SerializedName("s3")
+@Expose
+@BeanProperty
+var s3: S3_ = _
+
+@SerializedName("blobName")
+@Expose
+@BeanProperty
+var blobName: String = _
+
+@SerializedName("placeholderName")
+@Expose
+@BeanProperty
+var placeholderName: String = _
+
+@SerializedName("md5")
+@Expose
+@BeanProperty
+var md5: String = _
+
+@SerializedName("contentType")
+@Expose
+@BeanProperty
+var contentType: String = _
+
+@SerializedName("owner")
+@Expose
+@BeanProperty
+var owner: String = _
+
+@SerializedName("apiVersion")
+@Expose
+@BeanProperty
+var apiVersion: String = _
+
+@SerializedName("__v")
+@Expose
+@BeanProperty
+var v: java.lang.Integer = _
+}
+-----------------------------------com.example.Legend.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Legend {
+
+@SerializedName("display")
+@Expose
+@BeanProperty
+var display: java.lang.Boolean = _
+
+@SerializedName("position")
+@Expose
+@BeanProperty
+var position: String = _
+}
+-----------------------------------com.example.Line.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Line {
+
+@SerializedName("borderWidth")
+@Expose
+@BeanProperty
+var borderWidth: java.lang.Integer = _
+}
+-----------------------------------com.example.Listconfig.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Listconfig {
+
+@SerializedName("headers")
+@Expose
+@BeanProperty
+var headers: List[Header] = null
+}
+-----------------------------------com.example.Main.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Main {
+
+@SerializedName("listconfig")
+@Expose
+@BeanProperty
+var listconfig: Listconfig = _
+
+@SerializedName("statistics")
+@Expose
+@BeanProperty
+var statistics: List[Statistic] = null
+}
+-----------------------------------com.example.Options.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Options {
+
+@SerializedName("maintainAspectRatio")
+@Expose
+@BeanProperty
+var maintainAspectRatio: java.lang.Boolean = _
+
+@SerializedName("scales")
+@Expose
+@BeanProperty
+var scales: Scales = _
+
+@SerializedName("elements")
+@Expose
+@BeanProperty
+var elements: Elements = _
+
+@SerializedName("legend")
+@Expose
+@BeanProperty
+var legend: Legend = _
+}
+-----------------------------------com.example.Owner.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Owner {
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+
+@SerializedName("username")
+@Expose
+@BeanProperty
+var username: String = _
+
+@SerializedName("email")
+@Expose
+@BeanProperty
+var email: String = _
+
+@SerializedName("name")
+@Expose
+@BeanProperty
+var name: String = _
+
+@SerializedName("userType")
+@Expose
+@BeanProperty
+var userType: String = _
+
+@SerializedName("customClient")
+@Expose
+@BeanProperty
+var customClient: String = _
+
+@SerializedName("image")
+@Expose
+@BeanProperty
+var image: Image = _
+
+@SerializedName("userConfig")
+@Expose
+@BeanProperty
+var userConfig: UserConfig = _
+
+@SerializedName("preferedLanguage")
+@Expose
+@BeanProperty
+var preferedLanguage: String = _
+
+@SerializedName("active")
+@Expose
+@BeanProperty
+var active: java.lang.Boolean = _
+
+@SerializedName("apiVersion")
+@Expose
+@BeanProperty
+var apiVersion: String = _
+
+@SerializedName("userTypeDisc")
+@Expose
+@BeanProperty
+var userTypeDisc: String = _
+
+@SerializedName("createdAt")
+@Expose
+@BeanProperty
+var createdAt: String = _
+
+@SerializedName("updatedAt")
+@Expose
+@BeanProperty
+var updatedAt: String = _
+
+@SerializedName("__v")
+@Expose
+@BeanProperty
+var v: java.lang.Integer = _
+}
+-----------------------------------com.example.PedidoCarritoTmp.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class PedidoCarritoTmp {
+
+@SerializedName("products")
+@Expose
+@BeanProperty
+var products: List[Product] = null
+}
+-----------------------------------com.example.Point.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Point {
+
+@SerializedName("radius")
+@Expose
+@BeanProperty
+var radius: java.lang.Integer = _
+
+@SerializedName("hitRadius")
+@Expose
+@BeanProperty
+var hitRadius: java.lang.Integer = _
+
+@SerializedName("hoverRadius")
+@Expose
+@BeanProperty
+var hoverRadius: java.lang.Integer = _
+}
+-----------------------------------com.example.Product.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Product {
+
+@SerializedName("quantity")
+@Expose
+@BeanProperty
+var quantity: java.lang.Integer = _
+
+@SerializedName("product")
+@Expose
+@BeanProperty
+var product: Product_ = _
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+}
+-----------------------------------com.example.Product_.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Product_ {
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+
+@SerializedName("name")
+@Expose
+@BeanProperty
+var name: String = _
+
+@SerializedName("description")
+@Expose
+@BeanProperty
+var description: String = _
+
+@SerializedName("reference")
+@Expose
+@BeanProperty
+var reference: String = _
+
+@SerializedName("customClient")
+@Expose
+@BeanProperty
+var customClient: String = _
+
+@SerializedName("owner")
+@Expose
+@BeanProperty
+var owner: Owner = _
+
+@SerializedName("image")
+@Expose
+@BeanProperty
+var image: Image_ = _
+
+@SerializedName("active")
+@Expose
+@BeanProperty
+var active: java.lang.Boolean = _
+
+@SerializedName("apiVersion")
+@Expose
+@BeanProperty
+var apiVersion: String = _
+
+@SerializedName("productType")
+@Expose
+@BeanProperty
+var productType: String = _
+
+@SerializedName("createdAt")
+@Expose
+@BeanProperty
+var createdAt: String = _
+
+@SerializedName("updatedAt")
+@Expose
+@BeanProperty
+var updatedAt: String = _
+
+@SerializedName("__v")
+@Expose
+@BeanProperty
+var v: java.lang.Integer = _
+}
+-----------------------------------com.example.Result.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Result {
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: java.lang.Integer = _
+
+@SerializedName("caption")
+@Expose
+@BeanProperty
+var caption: String = _
+}
+-----------------------------------com.example.S3.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class S3 {
+
+@SerializedName("identifier")
+@Expose
+@BeanProperty
+var identifier: String = _
+
+@SerializedName("url")
+@Expose
+@BeanProperty
+var url: String = _
+}
+-----------------------------------com.example.S3_.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class S3_ {
+
+@SerializedName("identifier")
+@Expose
+@BeanProperty
+var identifier: String = _
+
+@SerializedName("url")
+@Expose
+@BeanProperty
+var url: String = _
+}
+-----------------------------------com.example.Scales.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Scales {
+
+@SerializedName("xAxes")
+@Expose
+private var xAxes: List[XAxis] = null
+
+@SerializedName("yAxes")
+@Expose
+private var yAxes: List[YAxis] = null
+
+def getXAxes(): List[XAxis] = xAxes
+
+def setXAxes(xAxes: List[XAxis]) {
+this.xAxes = xAxes
+}
+
+def getYAxes(): List[YAxis] = yAxes
+
+def setYAxes(yAxes: List[YAxis]) {
+this.yAxes = yAxes
+}
+}
+-----------------------------------com.example.Services.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Services {
+
+@SerializedName("statusFilters")
+@Expose
+@BeanProperty
+var statusFilters: List[StatusFilter] = null
+}
+-----------------------------------com.example.Shipper.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Shipper {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: String = _
+}
+-----------------------------------com.example.Statistic.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Statistic {
+
+@SerializedName("chartType")
+@Expose
+@BeanProperty
+var chartType: String = _
+
+@SerializedName("title")
+@Expose
+@BeanProperty
+var title: String = _
+
+@SerializedName("subtitle")
+@Expose
+@BeanProperty
+var subtitle: String = _
+
+@SerializedName("chartData")
+@Expose
+@BeanProperty
+var chartData: List[ChartDatum] = null
+
+@SerializedName("chartLabels")
+@Expose
+@BeanProperty
+var chartLabels: List[String] = null
+
+@SerializedName("options")
+@Expose
+@BeanProperty
+var options: Options = _
+
+@SerializedName("chartColours")
+@Expose
+@BeanProperty
+var chartColours: AnyRef = _
+
+@SerializedName("chartLegend")
+@Expose
+@BeanProperty
+var chartLegend: java.lang.Boolean = _
+
+@SerializedName("result")
+@Expose
+@BeanProperty
+var result: Result = _
+}
+-----------------------------------com.example.Status.scala-----------------------------------
+package com.example
+
+import java.util.List
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class Status {
+
+@SerializedName("label")
+@Expose
+@BeanProperty
+var label: String = _
+
+@SerializedName("value")
+@Expose
+@BeanProperty
+var value: List[String] = null
+
+@SerializedName("valueFormat")
+@Expose
+@BeanProperty
+var valueFormat: String = _
+}
+-----------------------------------com.example.StatusFilter.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class StatusFilter {
+
+@SerializedName("title")
+@Expose
+@BeanProperty
+var title: String = _
+
+@SerializedName("key")
+@Expose
+@BeanProperty
+var key: String = _
+
+@SerializedName("active")
+@Expose
+@BeanProperty
+var active: java.lang.Boolean = _
+}
+-----------------------------------com.example.UserConfig.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class UserConfig {
+
+@SerializedName("_id")
+@Expose
+@BeanProperty
+var id: String = _
+
+@SerializedName("configuration")
+@Expose
+@BeanProperty
+var configuration: Configuration = _
+
+@SerializedName("description")
+@Expose
+@BeanProperty
+var description: String = _
+
+@SerializedName("customClient")
+@Expose
+@BeanProperty
+var customClient: String = _
+
+@SerializedName("active")
+@Expose
+@BeanProperty
+var active: java.lang.Boolean = _
+
+@SerializedName("apiVersion")
+@Expose
+@BeanProperty
+var apiVersion: String = _
+
+@SerializedName("createdAt")
+@Expose
+@BeanProperty
+var createdAt: String = _
+
+@SerializedName("updatedAt")
+@Expose
+@BeanProperty
+var updatedAt: String = _
+
+@SerializedName("__v")
+@Expose
+@BeanProperty
+var v: java.lang.Integer = _
+}
+-----------------------------------com.example.XAxis.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class XAxis {
+
+@SerializedName("display")
+@Expose
+@BeanProperty
+var display: java.lang.Boolean = _
+}
+-----------------------------------com.example.YAxis.scala-----------------------------------
+package com.example
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+import scala.beans.{BeanProperty, BooleanBeanProperty}
+//remove if not needed
+import scala.collection.JavaConversions._
+
+class YAxis {
+
+@SerializedName("display")
+@Expose
+@BeanProperty
+var display: java.lang.Boolean = _
+}
+Use this tool offline: Maven plugin Gradle plugin Ant task CLI Java API
+© 2012-2016 Joe Littlejohn Bugs?
+

@@ -1,0 +1,33 @@
+navigationbars - toolbars
+navigationBackItems - navigation_items
+navigationBarButtons - menu_items
+labels - texts
+sectionsLabels - sectionstexts
+collectionViews - recycler_views
+collectionCells - cell_views
+collectionReusableHeaders - cell_headers
+collectionReusableFooters - cell_footers
+tableviews - recycler_views
+tableCells - cell_views
+textFields - text_fields
+tableViewProduct - collectionProducts
+_iPad_ - _Tablet_
+
+/*
+
+DVAMHomeUI_iPad_V1 - Home_UI_Tablet_V1
+DVAMHomeUI_iPad_V1_Cell_V1 - Home_UI_Tablet_V1_Cell_V1
+DVAMHomeUI_iPad_V1_Cell_V2 - Home_UI_Tablet_V1_Cell_V2
+DVAMMainUI_iPad_V1_Cell_V3 - Main_UI_Tablet_V1_Cell_V3
+
+
+DVAMProductDetailUI_iPad_V3 - Product_Detail_UI_Tablet_V1
+DVAMProductDetailUI_iPad_V2_Cell_V1 - HomeUITabletV1CellV2Holder
+DVAMProductDetailUI_iPad_V2_Cell_V10
+
+DVAMAlertUI_iPad_V2 - Product_Detail_UI_Tablet_V1
+DVAMAlertUI_iPad_V2_Cell_V1 - HomeUITabletV1CellV2Holder
+*/
+
+
+

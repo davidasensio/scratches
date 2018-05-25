@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>Prueba 1</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>Porcelanosa L’Antic Colonial - Showroom 2017</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>Porcelanosa Premium Collection 2017</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>Espacio Terma - Terma Space</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>otro más</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageName</key>
+			<string>video</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>baños</string>
+		</dict>
+		<key>text</key>
+		<string>ultimo</string>
+		<key>video</key>
+		<string>url del video</string>
+	</dict>
+</array>
+</plist>

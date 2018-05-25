@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Vil du ændre din licens?</string>
+<string name="qr_reader_title">Scan QR Code</string>
+<string name="configuration_license_alert_title">Advarsel</string>
+<string name="pairing_question_text">Vil du vil parre slukke enheden?</string>
+<string name="configuration_value_off">Ingen video</string>
+<string name="configuration_value_low">Lav</string>
+<string name="configuration_value_medium">Mellem</string>
+<string name="configuration_value_high">Høj</string>
+<string name="configuration_busy_mode">Optaget Tilstand</string>
+<string name="configuration_device_name">Enhed</string>
+<string name="configuration_microphone_gain">Mikrofon gain</string>
+<string name="configuration_handsfree">Håndfri</string>
+<string name="configuration_headset">Headset</string>
+<string name="configuration_video_quality">Videokvalitet</string>
+<string name="configuration_wifi">via WIFI</string>
+<string name="configuration_3G">via 3G/4G</string>

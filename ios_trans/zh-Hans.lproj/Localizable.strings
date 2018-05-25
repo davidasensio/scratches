@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">是否更新序列号？</string>
+<string name="qr_reader_title">扫描QR码</string>
+<string name="configuration_license_alert_title">警告</string>
+<string name="pairing_question_text">您要将设备配对吗</string>
+<string name="configuration_value_off">关闭视频</string>
+<string name="configuration_value_low">低分辨率</string>
+<string name="configuration_value_medium">标清</string>
+<string name="configuration_value_high">高清</string>
+<string name="configuration_busy_mode">忙碌模式</string>
+<string name="configuration_device_name">设备</string>
+<string name="configuration_microphone_gain">麦克风增益</string>
+<string name="configuration_handsfree">免提</string>
+<string name="configuration_headset">耳麦</string>
+<string name="configuration_video_quality">视频质量</string>
+<string name="configuration_wifi">WIFI</string>
+<string name="configuration_3G">3G/4G</string>

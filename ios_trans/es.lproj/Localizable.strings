@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">¿Desea cambiar su licencia?</string>
+<string name="qr_reader_title">Escanee código QR</string>
+<string name="pairing_question_text">¿Quieres desemparejar el dispositivo?</string>
+<string name="configuration_license_alert_title">Atención</string>
+<string name="configuration_value_off">Sin video</string>
+<string name="configuration_value_low">Baja</string>
+<string name="configuration_value_medium">Media</string>
+<string name="configuration_value_high">Alta</string>
+<string name="configuration_busy_mode">Modo Ocupado</string>
+<string name="configuration_device_name">Nombre dispositivo</string>
+<string name="configuration_microphone_gain">Ganancia micrófono</string>
+<string name="configuration_handsfree">Manos libres</string>
+<string name="configuration_headset">Auricular</string>
+<string name="configuration_video_quality">Calidad Video</string>
+<string name="configuration_wifi">con WIFI</string>
+<string name="configuration_3G">con 3G/4G</string>

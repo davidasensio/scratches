@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">Vil du endre din lisens?</string>
+<string name="qr_reader_title">Scan QR kode</string>
+<string name="configuration_license_alert_title">Forsiktighet</string>
+<string name="pairing_question_text">Ønsker du å koble av enheten?</string>
+<string name="configuration_value_off">Ingen video</string>
+<string name="configuration_value_low">Lav</string>
+<string name="configuration_value_medium">Medium</string>
+<string name="configuration_value_high">Høy</string>
+<string name="configuration_busy_mode">Opptatt Modus</string>
+<string name="configuration_device_name">Enhet</string>
+<string name="configuration_microphone_gain">Mikrofon forsterker</string>
+<string name="configuration_handsfree">Handsfree</string>
+<string name="configuration_headset">Øretelefoner</string>
+<string name="configuration_video_quality">Video kvalitet</string>
+<string name="configuration_wifi">av WIFI</string>
+<string name="configuration_3G">av 3G/4G</string>

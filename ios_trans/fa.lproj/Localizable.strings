@@ -1,0 +1,16 @@
+<string name="configuration_license_alert_message">مجوز قابل اعتبارسنجی نیست</string>
+<string name="qr_reader_title">کد کیوآر را اسکن کنید</string>
+<string name="configuration_license_alert_title">احتیاط</string>
+<string name="pairing_question_text">آیا شما می خواهید به جفت کردن دستگاه؟</string>
+<string name="configuration_value_off">بدون تصویر</string>
+<string name="configuration_value_low">کم</string>
+<string name="configuration_value_medium">متوسط</string>
+<string name="configuration_value_high">زیاد</string>
+<string name="configuration_busy_mode">وضعیت مشغول</string>
+<string name="configuration_device_name">دستگاه</string>
+<string name="configuration_microphone_gain">بهره میکروفن</string>
+<string name="configuration_handsfree">هندزفری</string>
+<string name="configuration_headset">هدست</string>
+<string name="configuration_video_quality">فیلم با کیفیت</string>
+<string name="configuration_wifi">بیش از فای</string>
+<string name="configuration_3G">3G/4G بیش از</string>

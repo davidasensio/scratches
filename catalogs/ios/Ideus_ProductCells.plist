@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/7/3/737c794d4c0745caecbba4dc1700e797_1_6.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 1</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/a/6/a6904b2a71eeec97b3084c252b09eb8f_1_6.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 2</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/c/0/c06465977796b4d0a938919c57322932_1_6.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 3</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/a/b/ab1600a09296c71344f6a026dab2ccc1_1_7.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 4</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/0/9/094e9a9a86cbaa35a09db24259b00ff0_1.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 5</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>1</string>
+		<key>image</key>
+		<dict>
+			<key>imageURL</key>
+			<string>http://www.ideus.com/media/catalog/product/cache/1/small_image/270x216/de9045b01af5680ba4d8df5b0a01fc4e/0/1/01514bdd827aeedd1b4d23bbfa8dd84c_1_4.jpg</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>placeholderImageName</key>
+			<string>funda</string>
+		</dict>
+		<key>text</key>
+		<string>Funda 6</string>
+	</dict>
+</array>
+</plist>
