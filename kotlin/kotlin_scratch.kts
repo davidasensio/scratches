@@ -13,11 +13,6 @@ listOf(1, 2, 3, 4, 5, 6).filter({
 
 fun testScopes() {
     var mood = "I am sad"
-    ree {
-        val mood = "I am happy"
-        println(mood)
-        mood
-    }.reversed().also(::println)
 
     println(mood)
 
@@ -25,15 +20,26 @@ fun testScopes() {
     val book = Book("Book1", "Me")
     mywith(book) {
         author = "Anonymous"
-        repeat(15, {readPage()})
+        repeat(15, { readPage() })
         println(book)
     }
+
+    val book2 = Book("Book2", "Other")
+
+    book2.runrunWithScope {
+        println(title)
+        mood
+    }.reversed().also(::println)
 }
 
 testScopes()
 
-fun <T, R> T.ree(block: T.() -> R): R {
+fun <T, R> T.runrun(block: T.() -> R): R {
     return block()
+}
+
+fun <T, R> T.runrunWithScope(block: T.() -> R): R {
+    return block(this)
 }
 
 fun <T, R> mywith(receiver: T, block: T.() -> R): R {
