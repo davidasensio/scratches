@@ -1,2 +1,57 @@
-[{"bin":"00028","mask":"9999","texts":[{"iso":"es","text":"Introduzca 4 últimas posiciones de su cuenta bancaria"},{"iso":"en","text":"Enter 4 last positions of your bank account"}]},{"bin":"00007","mask":"9999","texts":[{"iso":"es","text":"Introduzca 4 últimas posiciones de su cuenta bancaria"},{"iso":"en","text":"Enter 4 last positions of your bank account"}]},{"bin":"000544","mask":"9999","texts":[{"iso":"es","text":"Introduzca 4 últimas posiciones de su cuenta bancaria"},{"iso":"en","text":"Enter 4 last positions of your bank account"}]},{"bin":"00001","mask":"9999","texts":[{"iso":"es","text":"Introduzca 4 últimas posiciones de su cuenta bancaria"},{"iso":"en","text":"Enter 4 last positions of your bank account"}]},{"bin":"000818","mask":"9999","texts":[{"iso":"es","text":"Introduzca 4 últimas posiciones de su teléfono"},{"iso":"en","text":"Enter 4 last positions of your phone"}]}]
-{  "validations": [    {      "bin": "00028",      "mask": "9999",      "texts": [        {          "iso": "es",          "text": "Introduzca 4 últimas posiciones de su cuenta bancaria"        },        {          "iso": "en",          "text": "Enter 4 last positions of your bank account"        }      ],    },    {      "bin": "000818",      "texts": [        {          "iso": "es",          "text": "Introduzca 4 últimas posiciones de su teléfono"        },        {          "iso": "en",          "text": "Enter 4 last positions of your phone"        }      ],      "mask": "9999"    }  ]}
+{
+  "t_bultos_leidos": [
+    {
+      "TIPO": "D",
+      "EQUNR": "000000000240757101",
+      "BULTO": "01",
+      "VBELN": "0010385776",
+      "POSNR": "",
+      "ERDAT": "20180725",
+      "ERZET": "105804",
+      "MANUAL": ""
+    }
+  ],
+  "t_datos_alb_cobro": [
+    {
+      "VBELN": "0010385776",
+      "LIFNR": "0000022003",
+      "KUNNR": "000000000002407571",
+      "ERDAT": "20180725",
+      "ERZET": "105802",
+      "EXBWR": 227.96,
+      "WAERK": 0.0,
+      "ESTADO": "",
+      "CAJO_NUMBER": "",
+      "ZZDESCARGA": "X",
+      "ZWELS      ": "A",
+      "LIQUID     ": ""
+    }
+  ],
+  "t_descargas": [
+    {
+      "VBELN": "0010385776",
+      "POSNR": "",
+      "EQUNR": "000000000002407571",
+      "ZZANZPK": 1,
+      "ZZANZPK_E1": 1
+    }
+  ],
+  "t_entregas": [
+    {
+      "SIGN": "I",
+      "OPT": "EQ",
+      "LOW": "0010385776"
+    }
+  ],
+  "t_incidencias": [],
+  "t_alb_cargados": [
+    {
+      "CODIGO_ALB": "0010385776",
+      "PR_KUNNR": "000000000002407571",
+      "PR_NETWR": 227.96,
+      "PR_WAERK": "EUR",
+      "PR_ZLSCH": "",
+      "PR_ZTERM": ""
+    }
+  ]
+}

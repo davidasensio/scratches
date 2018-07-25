@@ -1,19 +1,41 @@
+Profiltek Base URLs:
+====================
 
-- (+1h) El usuario gratuito verá los precios actualizados salvo al última actualización.
-
-- (¿Backend?) Valorar acción de las ofertas por ubicación y por el ámbito de trabajo
-
-- (+4h) Separar las alertas por tipo en distintos tabs (+4h):
-
-    + Tab de alertas de Actualización de precio
-    + Tab de alertas de Solicitud de precio
-    + Tab de alertas de Promoción servicio
-
-- (¿Backend?) Programación de ofertas repetitivas
-
-- (¿Backend?) Listado de ofertas y promociones en el panel de cliente (Filtrados por cliente)
+http://wsdes.profiltek.com:8080/profiltek/
 
 
-{"_id":"5ad608befba2dd37a553c6f7","address":{"region":"Santa Cruz de Tenerife","country":"ES","contact":[{"_id":"5ad608befba2dd37a553c6f9","name":"Prueba de usuario","phone":"644386914"},{"_id":"5ad608befba2dd37a553c6f8","name":"Contacto 2","phone":"699568965"}],"city":"Valencia","postalCode":"46901","address":"calle sucia"},"payment":{"invoice":"1213456789","deliveryInvoice":true,"total":"10","paid":"0","charge":"0"},"sort":{"consumer":{"name":"Prueba de usuario"},"clientBusiness":{"name":"MediaMarkt Canarias"},"serviceBusiness":{"name":"InSide Logistics","surname":"User"},"products":[{"_id":"5ad608befba2dd37a553c6fb","id":"5ad5933efe0e707a027e1f44","name":"cable 1,5m","description":"HAMA 011900CAB.ANT.M-H","reference":"1001228"}]},"feedback":{"date":"2018-04-17T06:50:20.533Z","questions":[]},"active":true,"apiVersion":"1","status":"created","serviceType":"mm_model_delivery","products":[{"quantity":2,"expo":true,"_id":"5ad608befba2dd37a553c6fa","product":"5ad5933efe0e707a027e1f44","warehouse":"1"}],"estimatedServiceDate":"2018-04-18T14:46:22.408Z","statuses":[],"consumer":"5ad608befba2dd37a553c6f6","comment":"Nada nuevo","pickup":"true","customClient":"mediamarkt_canary","clientBusiness":"5ad59336fe0e707a027e195a","serviceBusiness":"5ad59335fe0e707a027e194e","createdAt":"2018-04-17T14:46:22.410Z","updatedAt":"2018-04-17T14:46:22.410Z","__v":0,"id":"5ad608befba2dd37a553c6f7"}
+Profiltek Endpoints:
+====================
+
+1. "/profiltek/pda/ping"
+2. "/profiltek/pda/getConfig"
+3. "/profiltek/pda/getNombrePDA"
+4. "/profiltek/pda/getMaestros"
+5. "/profiltek/pda/appGTP/getAlbaranes"
+6. "/profiltek/pda/appGTP/cerrarExp"
+7. "/profiltek/pda/appGTP/cerrarSucursal"
+8. "/profiltek/pda/appGTP/marcarRecogida"
+9. "/profiltek/pda/appTrazaStock/trazar"
+10. "/profiltek/pda/appGTP/asignaMatricula"
 
 
+Profiltek Endpoints parameters:
+===============================
+
+1. "/profiltek/pda/ping"
+
+    appl=GTP
+    
+
+2. "/profiltek/pda/getConfig"
+
+    "id=" + lv_uniqueID
+    "&appl=GTP"
+    "&pda=" + gv_codPDA.PadLeft(10, "0")
+    "&version=" + gv_version_local
+
+
+Dudas:
+======
+
+¿Se pide confirmación cuando creamos incidencia de Pago? En caso afirmativo, ¿Con qué mensaje?

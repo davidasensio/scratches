@@ -78,10 +78,10 @@ class Sem(var greenTime: Int = 5,var amberTime: Int = 2,var redTime: Int = 5) {
 val sem = Sem()
 
 sem.startAuto()
-//
-////Stop
-//Timer().schedule(object : java.util.TimerTask() {
-//    override fun run() {
-//        sem.stop()
-//    }
-//}, 21000)
+
+//Stop
+Timer().schedule(object : java.util.TimerTask() {
+    override fun run() {
+        sem.stop()
+    }
+}, 21000)
